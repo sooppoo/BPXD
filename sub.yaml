@@ -79,50 +79,7 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: dajbxsg.naikonode.top
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 15402
-  password: NaikoCloud
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 1596:vsqvobohcqs
-  obfs: http_simple
-  obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1E6\U0001F1FA AU 2"
-  server: au2-3.nigirocloud.com
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 3"
-  server: au1-3.nigirocloud.com
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 4"
-  server: au1-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 5"
-  server: au2-2.nigirocloud.com
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 6"
+- name: "\U0001F1E6\U0001F1FA AU 1"
   server: au2-4.nigirocloud.com
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
@@ -130,7 +87,15 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 7"
+- name: "\U0001F1E6\U0001F1FA AU 2"
+  server: au1-1.nigirocloud.com
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 3"
   server: hly.755657.xyz
   type: trojan
   country: "\U0001F1E8\U0001F1E6 CA"
@@ -138,67 +103,29 @@ proxies:
   password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 8"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24009
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: cmjm.julvab.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 20706
-  password: download.microso
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: mzqlpieszcm.julvab.com
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 59913
-  password: download.microso
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 TW 11"
-  server: tw01.henet.cyou
+- name: "\U0001F1E8\U0001F1F3 TW 4"
+  server: tw02.henet.cyou
   type: trojan
   country: "\U0001F1E8\U0001F1F3 TW"
   port: 30000
   password: fb9353e1-4b1e-4c00-9ff8-10a6c96b2390
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: 14.29.124.168
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: moblev3.mipglxi.cn
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24006
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1EB\U0001F1F7 FR 13"
-  server: 35.180.202.38
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 14"
-  server: de1-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1E9\U0001F1EA DE"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 15"
+  port: 6622
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: moblev3.mipglxi.cn
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 6625
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  cipher: aes-128-gcm
+- name: "\U0001F1E9\U0001F1EA DE 7"
   server: de2-4.nigirocloud.com
   type: trojan
   country: "\U0001F1E9\U0001F1EA DE"
@@ -206,42 +133,15 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 16"
-  server: de2-2.nigirocloud.com
+- name: "\U0001F1EB\U0001F1F7 FR 8"
+  server: 13.38.55.217
   type: trojan
-  country: "\U0001F1E9\U0001F1EA DE"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 17"
-  server: 35.176.6.24
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
+  country: "\U0001F1EB\U0001F1F7 FR"
   port: 443
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EA\U0001F1EA EE 18"
-  server: ee1-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EA\U0001F1EA EE"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19"
-  server: cmjm.julvab.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 30718
-  password: download.microso
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1EA\U0001F1EA EE 20"
+- name: "\U0001F1EA\U0001F1EA EE 9"
   server: ee1-4.nigirocloud.com
   type: trojan
   country: "\U0001F1EA\U0001F1EA EE"
@@ -249,52 +149,23 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 21"
-  server: 3.10.209.85
+- name: "\U0001F1EC\U0001F1E7 GB 10"
+  server: 13.40.126.229
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 443
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 22"
-  server: uk1-1.nigirocloud.com
+- name: "\U0001F1E9\U0001F1EA DE 11"
+  server: de1-3.nigirocloud.com
   type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
+  country: "\U0001F1E9\U0001F1EA DE"
   port: 443
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: cmlinec1.langtg.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 562
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 2634:vFr9Fx23xZR(1)
-  obfs: plain
-- name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: cunicom.julvab.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 30009
-  password: download.microso
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1EC\U0001F1E7 GB 25"
-  server: uk1-2.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 26"
+- name: "\U0001F1E8\U0001F1F3 CN 12"
   server: cmjm.julvab.com
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -305,15 +176,7 @@ proxies:
   protocol-param: 10638:CznkVG
   obfs: http_simple
   obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1EC\U0001F1E7 GB 27"
-  server: uk1-3.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 28"
+- name: "\U0001F1EC\U0001F1E7 GB 13"
   server: sp.755657.xyz
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -321,48 +184,51 @@ proxies:
   password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 29"
-  server: ifanrlpiecm.julvab.com
+- name: "\U0001F1E8\U0001F1F3 CN 14"
+  server: cmlinec1.langtg.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 59905
-  password: download.microso
+  port: 562
+  password: mblank1port
   cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: cmjm.julvab.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 20112
-  password: download.microso
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 31"
-  server: ifanrlpiecm.julvab.com
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 59902
-  password: download.microso
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 10638:CznkVG
-  obfs: http_simple
-  obfs-param: 7cd8910638.download.microsoft.com
-- name: "\U0001F1EC\U0001F1E7 GB 32"
-  server: 13.40.126.229
+  protocol: auth_aes128_md5
+  protocol-param: 2634:vFr9Fx23xZR(1)
+  obfs: plain
+- name: "\U0001F1EC\U0001F1E7 GB 15"
+  server: 35.176.6.24
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 443
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 33"
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: cmjm.julvab.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 30718
+  password: download.microso
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 10638:CznkVG
+  obfs: http_simple
+  obfs-param: 7cd8910638.download.microsoft.com
+- name: "\U0001F1EC\U0001F1E7 GB 17"
+  server: uk1-2.nigirocloud.com
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 18"
+  server: moblev3.mipglxi.cn
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 6626
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 HK 19"
   server: hk1-6.nigirocloud.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -370,48 +236,7 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 34"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24008
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 HK 35"
-  server: hk1-3.nigirocloud.com
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 36"
-  server: cmlinec1.langtg.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 560
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 2634:vFr9Fx23xZR(1)
-  obfs: plain
-- name: "\U0001F1E8\U0001F1F3 HK 37"
-  server: hk1-4.nigirocloud.com
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 38"
-  server: hk1-8.nigirocloud.com
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 39"
+- name: "\U0001F1E8\U0001F1F3 HK 20"
   server: hk1-2.nigirocloud.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -419,7 +244,42 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 40"
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: cunicom.julvab.com
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 30009
+  password: download.microso
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 10638:CznkVG
+  obfs: http_simple
+  obfs-param: 7cd8910638.download.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 HK 22"
+  server: cos.usdeth.top
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 23"
+  server: hk1-4.nigirocloud.com
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 24"
+  server: hk1-7.nigirocloud.com
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 25"
   server: hk1-1.nigirocloud.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -427,26 +287,7 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 41"
-  server: 35.220.207.184
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 43363
-  password: yZw9dSzYFL
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 42"
-  server: dajbxjp.naikonode.top
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 15203
-  password: NaikoCloud
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 1596:vsqvobohcqs
-  obfs: http_simple
-  obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 43"
+- name: "\U0001F1E8\U0001F1F3 CN 26"
   server: dajbxjp.naikonode.top
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -457,7 +298,15 @@ proxies:
   protocol-param: 1596:vsqvobohcqs
   obfs: http_simple
   obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 44"
+- name: "\U0001F1E8\U0001F1F3 HK 27"
+  server: hk1-3.nigirocloud.com
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 28"
   server: dajbxjp.naikonode.top
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -468,23 +317,7 @@ proxies:
   protocol-param: 1596:vsqvobohcqs
   obfs: http_simple
   obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 HK 45"
-  server: hk1-7.nigirocloud.com
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 46"
-  server: os1-7.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 47"
+- name: "\U0001F1E8\U0001F1F3 CN 29"
   server: dajbxjp.naikonode.top
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -495,7 +328,18 @@ proxies:
   protocol-param: 1596:vsqvobohcqs
   obfs: http_simple
   obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 48"
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: dajbxjp.naikonode.top
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 15203
+  password: NaikoCloud
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 1596:vsqvobohcqs
+  obfs: http_simple
+  obfs-param: 6371f1596.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 31"
   server: dajbxjp.naikonode.top
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -506,87 +350,7 @@ proxies:
   protocol-param: 1596:vsqvobohcqs
   obfs: http_simple
   obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1EF\U0001F1F5 JP 49"
-  server: os2-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1E9 ID 50"
-  server: 41.216.177.41
-  type: trojan
-  country: "\U0001F1EE\U0001F1E9 ID"
-  port: 443
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 51"
-  server: os2-6.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 52"
-  server: os2-8.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 53"
-  server: os1-4.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 54"
-  server: os1-6.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 55"
-  server: os1-5.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 56"
-  server: os1-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 57"
-  server: os1-3.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 58"
-  server: os1-2.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 59"
+- name: "\U0001F1E8\U0001F1F3 CN 32"
   server: dajbxjp.naikonode.top
   type: ssr
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -597,31 +361,7 @@ proxies:
   protocol-param: 1596:vsqvobohcqs
   obfs: http_simple
   obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 HK 60"
-  server: 103.103.245.125
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 50350
-  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 61"
-  server: os2-4.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 62"
-  server: os2-7.nigirocloud.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 63"
+- name: "\U0001F1EF\U0001F1F5 JP 33"
   server: 18.179.205.215
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -629,7 +369,23 @@ proxies:
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 64"
+- name: "\U0001F1E8\U0001F1F3 HK 34"
+  server: 35.220.207.184
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 43363
+  password: yZw9dSzYFL
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 35"
+  server: os1-6.nigirocloud.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 36"
   server: os1-8.nigirocloud.com
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -637,98 +393,45 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 65"
-  server: jjkk.usdeth.top
+- name: "\U0001F1EF\U0001F1F5 JP 37"
+  server: os1-2.nigirocloud.com
   type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
+  country: "\U0001F1EF\U0001F1F5 JP"
   port: 443
-  password: 71354f48-e8c8-4c4c-a967-47d7ac5e953c
+  password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 66"
+- name: "\U0001F1EF\U0001F1F5 JP 38"
+  server: os2-7.nigirocloud.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 39"
+  server: os2-6.nigirocloud.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 40"
   server: moblev3.mipglxi.cn
   type: ss
   country: "\U0001F1F8\U0001F1EC SG"
   port: 6614
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 67"
+- name: "\U0001F1E8\U0001F1F3 CN 41"
   server: moblev3.mipglxi.cn
   type: ss
   country: "\U0001F1F8\U0001F1EC SG"
   port: 6610
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 68"
-  server: moblev3.mipglxi.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 6612
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 69"
-  server: moblev3.mipglxi.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 6611
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 70"
-  server: aws2.raytrack.cloud
-  type: trojan
-  country: "\U0001F1F2\U0001F1E9 MD"
-  port: 59648
-  password: f6f16e37-c800-46d5-ac12-475b4b61c18b
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 71"
-  server: nl1-7.nigirocloud.com
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1 NL"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 72"
-  server: moblev3.mipglxi.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 6609
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  cipher: aes-128-gcm
-- name: "\U0001F1F8\U0001F1EC SG 73"
-  server: 93hk03.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 4433
-  password: bb07c284-4654-4358-b1f0-0007147fbf4f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 74"
-  server: nl1-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1 NL"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 75"
-  server: nl1-5.nigirocloud.com
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1 NL"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 76"
-  server: nl1-3.nigirocloud.com
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1 NL"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 77"
+- name: "\U0001F1F3\U0001F1F1 NL 42"
   server: nl1-2.nigirocloud.com
   type: trojan
   country: "\U0001F1F3\U0001F1F1 NL"
@@ -736,7 +439,45 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 78"
+- name: "\U0001F1EF\U0001F1F5 JP 43"
+  server: os2-1.nigirocloud.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: moblev3.mipglxi.cn
+  type: ss
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 6613
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 45"
+  server: moblev3.mipglxi.cn
+  type: ss
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 6611
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  cipher: aes-128-gcm
+- name: "\U0001F1F3\U0001F1F1 NL 46"
+  server: nl1-7.nigirocloud.com
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1 NL"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 47"
+  server: nl1-3.nigirocloud.com
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1 NL"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 48"
   server: nl1-8.nigirocloud.com
   type: trojan
   country: "\U0001F1F3\U0001F1F1 NL"
@@ -744,7 +485,23 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 79"
+- name: "\U0001F1F8\U0001F1EC SG 49"
+  server: 13.213.69.245
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: aws2.raytrack.cloud
+  type: trojan
+  country: "\U0001F1F2\U0001F1E9 MD"
+  port: 59648
+  password: f6f16e37-c800-46d5-ac12-475b4b61c18b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 51"
   server: hk01.henet.cyou
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -752,7 +509,7 @@ proxies:
   password: fb9353e1-4b1e-4c00-9ff8-10a6c96b2390
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 80"
+- name: "\U0001F1F8\U0001F1EC SG 52"
   server: sg02.henet.cyou
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -760,22 +517,7 @@ proxies:
   password: fb9353e1-4b1e-4c00-9ff8-10a6c96b2390
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 81"
-  server: 831sg.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: bb07c284-4654-4358-b1f0-0007147fbf4f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 82"
-  server: moblev3.mipglxi.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 6613
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  cipher: aes-128-gcm
-- name: "\U0001F1F8\U0001F1EC SG 83"
+- name: "\U0001F1F8\U0001F1EC SG 53"
   server: sg01.henet.cyou
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -783,34 +525,7 @@ proxies:
   password: fb9353e1-4b1e-4c00-9ff8-10a6c96b2390
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 84"
-  server: dajbxus.naikonode.top
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 15105
-  password: NaikoCloud
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 1596:vsqvobohcqs
-  obfs: http_simple
-  obfs-param: 6371f1596.microsoft.com
-- name: "\U0001F1FA\U0001F1F8 US 85"
-  server: us2-4.nigirocloud.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 86"
-  server: us1-1.nigirocloud.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 87"
+- name: "\U0001F1FA\U0001F1F8 US 54"
   server: 104.129.63.65
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -818,15 +533,7 @@ proxies:
   password: SPk4wBA3XA
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 88"
-  server: tw93.tfzhc.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 80
-  password: bb07c284-4654-4358-b1f0-0007147fbf4f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 89"
+- name: "\U0001F1E8\U0001F1F3 TW 55"
   server: 730tw01.ok365.cyou
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -834,39 +541,39 @@ proxies:
   password: bb07c284-4654-4358-b1f0-0007147fbf4f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 90"
-  server: cc.755657.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 56"
+  server: os1-5.nigirocloud.com
   type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: "\U0001F1EF\U0001F1F5 JP"
   port: 443
-  password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
+  password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 91"
-  server: us2-3.nigirocloud.com
+- name: "\U0001F1FA\U0001F1F8 US 57"
+  server: us01.henet.cyou
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 30001
+  password: fb9353e1-4b1e-4c00-9ff8-10a6c96b2390
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 58"
+  server: tw93.tfzhc.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 80
+  password: bb07c284-4654-4358-b1f0-0007147fbf4f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 59"
+  server: us1-1.nigirocloud.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 92"
-  server: 199.19.109.30
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 50330
-  password: ad9ee6b5-4707-478a-ba5c-0fc7a4b0314c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 93"
-  server: us2-2.nigirocloud.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 94"
+- name: "\U0001F1FA\U0001F1F8 US 60"
   server: ion.755657.xyz
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -874,7 +581,26 @@ proxies:
   password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 95"
+- name: "\U0001F1E8\U0001F1F3 CN 61"
+  server: zj3.fdhsujj.xyz
+  type: ssr
+  country: "\U0001F3C1 ZZ"
+  port: 23542
+  password: J3ITPq
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 286652:Ky6KOw
+  obfs: http_simple
+  obfs-param: ZGJlOTYyODY2NTIubWljcm9zb2Z0LmNvbQ
+- name: "\U0001F1FA\U0001F1F8 US 62"
+  server: cc.755657.xyz
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 63"
   server: us1-3.nigirocloud.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -882,226 +608,142 @@ proxies:
   password: 4V4kxVXmcg5Yn2DqF2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 96"
-  server: us1-2.nigirocloud.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 97"
-  server: rbobosz.tk
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 23868
-  password: gMVN7PbEX2
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E6\U0001F1FA AU 1"
   - "\U0001F1E6\U0001F1FA AU 2"
-  - "\U0001F1E6\U0001F1FA AU 3"
-  - "\U0001F1E6\U0001F1FA AU 4"
-  - "\U0001F1E6\U0001F1FA AU 5"
-  - "\U0001F1E6\U0001F1FA AU 6"
-  - "\U0001F1E8\U0001F1E6 CA 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1F3 TW 11"
+  - "\U0001F1E8\U0001F1E6 CA 3"
+  - "\U0001F1E8\U0001F1F3 TW 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E9\U0001F1EA DE 7"
+  - "\U0001F1EB\U0001F1F7 FR 8"
+  - "\U0001F1EA\U0001F1EA EE 9"
+  - "\U0001F1EC\U0001F1E7 GB 10"
+  - "\U0001F1E9\U0001F1EA DE 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1EB\U0001F1F7 FR 13"
-  - "\U0001F1E9\U0001F1EA DE 14"
-  - "\U0001F1E9\U0001F1EA DE 15"
-  - "\U0001F1E9\U0001F1EA DE 16"
+  - "\U0001F1EC\U0001F1E7 GB 13"
+  - "\U0001F1E8\U0001F1F3 CN 14"
+  - "\U0001F1EC\U0001F1E7 GB 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1EC\U0001F1E7 GB 17"
-  - "\U0001F1EA\U0001F1EA EE 18"
-  - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1EA\U0001F1EA EE 20"
-  - "\U0001F1EC\U0001F1E7 GB 21"
-  - "\U0001F1EC\U0001F1E7 GB 22"
-  - "\U0001F1E8\U0001F1F3 CN 23"
-  - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1EC\U0001F1E7 GB 25"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1E8\U0001F1F3 HK 19"
+  - "\U0001F1E8\U0001F1F3 HK 20"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 HK 22"
+  - "\U0001F1E8\U0001F1F3 HK 23"
+  - "\U0001F1E8\U0001F1F3 HK 24"
+  - "\U0001F1E8\U0001F1F3 HK 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
-  - "\U0001F1EC\U0001F1E7 GB 27"
-  - "\U0001F1EC\U0001F1E7 GB 28"
+  - "\U0001F1E8\U0001F1F3 HK 27"
+  - "\U0001F1E8\U0001F1F3 CN 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
   - "\U0001F1E8\U0001F1F3 CN 31"
-  - "\U0001F1EC\U0001F1E7 GB 32"
-  - "\U0001F1E8\U0001F1F3 HK 33"
-  - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1E8\U0001F1F3 HK 35"
-  - "\U0001F1E8\U0001F1F3 CN 36"
-  - "\U0001F1E8\U0001F1F3 HK 37"
-  - "\U0001F1E8\U0001F1F3 HK 38"
-  - "\U0001F1E8\U0001F1F3 HK 39"
-  - "\U0001F1E8\U0001F1F3 HK 40"
-  - "\U0001F1E8\U0001F1F3 HK 41"
-  - "\U0001F1E8\U0001F1F3 CN 42"
-  - "\U0001F1E8\U0001F1F3 CN 43"
+  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1EF\U0001F1F5 JP 33"
+  - "\U0001F1E8\U0001F1F3 HK 34"
+  - "\U0001F1EF\U0001F1F5 JP 35"
+  - "\U0001F1EF\U0001F1F5 JP 36"
+  - "\U0001F1EF\U0001F1F5 JP 37"
+  - "\U0001F1EF\U0001F1F5 JP 38"
+  - "\U0001F1EF\U0001F1F5 JP 39"
+  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1F3\U0001F1F1 NL 42"
+  - "\U0001F1EF\U0001F1F5 JP 43"
   - "\U0001F1E8\U0001F1F3 CN 44"
-  - "\U0001F1E8\U0001F1F3 HK 45"
-  - "\U0001F1EF\U0001F1F5 JP 46"
-  - "\U0001F1E8\U0001F1F3 CN 47"
-  - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1EF\U0001F1F5 JP 49"
-  - "\U0001F1EE\U0001F1E9 ID 50"
-  - "\U0001F1EF\U0001F1F5 JP 51"
-  - "\U0001F1EF\U0001F1F5 JP 52"
-  - "\U0001F1EF\U0001F1F5 JP 53"
-  - "\U0001F1EF\U0001F1F5 JP 54"
-  - "\U0001F1EF\U0001F1F5 JP 55"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1F3\U0001F1F1 NL 46"
+  - "\U0001F1F3\U0001F1F1 NL 47"
+  - "\U0001F1F3\U0001F1F1 NL 48"
+  - "\U0001F1F8\U0001F1EC SG 49"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1F8\U0001F1EC SG 51"
+  - "\U0001F1F8\U0001F1EC SG 52"
+  - "\U0001F1F8\U0001F1EC SG 53"
+  - "\U0001F1FA\U0001F1F8 US 54"
+  - "\U0001F1E8\U0001F1F3 TW 55"
   - "\U0001F1EF\U0001F1F5 JP 56"
-  - "\U0001F1EF\U0001F1F5 JP 57"
-  - "\U0001F1EF\U0001F1F5 JP 58"
-  - "\U0001F1E8\U0001F1F3 CN 59"
-  - "\U0001F1E8\U0001F1F3 HK 60"
-  - "\U0001F1EF\U0001F1F5 JP 61"
-  - "\U0001F1EF\U0001F1F5 JP 62"
-  - "\U0001F1EF\U0001F1F5 JP 63"
-  - "\U0001F1EF\U0001F1F5 JP 64"
-  - "\U0001F1F0\U0001F1F7 KR 65"
-  - "\U0001F1E8\U0001F1F3 CN 66"
-  - "\U0001F1E8\U0001F1F3 CN 67"
-  - "\U0001F1E8\U0001F1F3 CN 68"
-  - "\U0001F1E8\U0001F1F3 CN 69"
-  - "\U0001F1E8\U0001F1F3 CN 70"
-  - "\U0001F1F3\U0001F1F1 NL 71"
-  - "\U0001F1E8\U0001F1F3 CN 72"
-  - "\U0001F1F8\U0001F1EC SG 73"
-  - "\U0001F1F3\U0001F1F1 NL 74"
-  - "\U0001F1F3\U0001F1F1 NL 75"
-  - "\U0001F1F3\U0001F1F1 NL 76"
-  - "\U0001F1F3\U0001F1F1 NL 77"
-  - "\U0001F1F3\U0001F1F1 NL 78"
-  - "\U0001F1F8\U0001F1EC SG 79"
-  - "\U0001F1F8\U0001F1EC SG 80"
-  - "\U0001F1F8\U0001F1EC SG 81"
-  - "\U0001F1E8\U0001F1F3 CN 82"
-  - "\U0001F1F8\U0001F1EC SG 83"
-  - "\U0001F1E8\U0001F1F3 CN 84"
-  - "\U0001F1FA\U0001F1F8 US 85"
-  - "\U0001F1FA\U0001F1F8 US 86"
-  - "\U0001F1FA\U0001F1F8 US 87"
-  - "\U0001F1E8\U0001F1F3 TW 88"
-  - "\U0001F1E8\U0001F1F3 TW 89"
-  - "\U0001F1FA\U0001F1F8 US 90"
-  - "\U0001F1FA\U0001F1F8 US 91"
-  - "\U0001F1FA\U0001F1F8 US 92"
-  - "\U0001F1FA\U0001F1F8 US 93"
-  - "\U0001F1FA\U0001F1F8 US 94"
-  - "\U0001F1FA\U0001F1F8 US 95"
-  - "\U0001F1FA\U0001F1F8 US 96"
-  - "\U0001F1FA\U0001F1F8 US 97"
+  - "\U0001F1FA\U0001F1F8 US 57"
+  - "\U0001F1E8\U0001F1F3 TW 58"
+  - "\U0001F1FA\U0001F1F8 US 59"
+  - "\U0001F1FA\U0001F1F8 US 60"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1FA\U0001F1F8 US 62"
+  - "\U0001F1FA\U0001F1F8 US 63"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E6\U0001F1FA AU 1"
   - "\U0001F1E6\U0001F1FA AU 2"
-  - "\U0001F1E6\U0001F1FA AU 3"
-  - "\U0001F1E6\U0001F1FA AU 4"
-  - "\U0001F1E6\U0001F1FA AU 5"
-  - "\U0001F1E6\U0001F1FA AU 6"
-  - "\U0001F1E8\U0001F1E6 CA 7"
-  - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1F3 TW 11"
+  - "\U0001F1E8\U0001F1E6 CA 3"
+  - "\U0001F1E8\U0001F1F3 TW 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E9\U0001F1EA DE 7"
+  - "\U0001F1EB\U0001F1F7 FR 8"
+  - "\U0001F1EA\U0001F1EA EE 9"
+  - "\U0001F1EC\U0001F1E7 GB 10"
+  - "\U0001F1E9\U0001F1EA DE 11"
   - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1EB\U0001F1F7 FR 13"
-  - "\U0001F1E9\U0001F1EA DE 14"
-  - "\U0001F1E9\U0001F1EA DE 15"
-  - "\U0001F1E9\U0001F1EA DE 16"
+  - "\U0001F1EC\U0001F1E7 GB 13"
+  - "\U0001F1E8\U0001F1F3 CN 14"
+  - "\U0001F1EC\U0001F1E7 GB 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
   - "\U0001F1EC\U0001F1E7 GB 17"
-  - "\U0001F1EA\U0001F1EA EE 18"
-  - "\U0001F1E8\U0001F1F3 CN 19"
-  - "\U0001F1EA\U0001F1EA EE 20"
-  - "\U0001F1EC\U0001F1E7 GB 21"
-  - "\U0001F1EC\U0001F1E7 GB 22"
-  - "\U0001F1E8\U0001F1F3 CN 23"
-  - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1EC\U0001F1E7 GB 25"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1E8\U0001F1F3 HK 19"
+  - "\U0001F1E8\U0001F1F3 HK 20"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 HK 22"
+  - "\U0001F1E8\U0001F1F3 HK 23"
+  - "\U0001F1E8\U0001F1F3 HK 24"
+  - "\U0001F1E8\U0001F1F3 HK 25"
   - "\U0001F1E8\U0001F1F3 CN 26"
-  - "\U0001F1EC\U0001F1E7 GB 27"
-  - "\U0001F1EC\U0001F1E7 GB 28"
+  - "\U0001F1E8\U0001F1F3 HK 27"
+  - "\U0001F1E8\U0001F1F3 CN 28"
   - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
   - "\U0001F1E8\U0001F1F3 CN 31"
-  - "\U0001F1EC\U0001F1E7 GB 32"
-  - "\U0001F1E8\U0001F1F3 HK 33"
-  - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1E8\U0001F1F3 HK 35"
-  - "\U0001F1E8\U0001F1F3 CN 36"
-  - "\U0001F1E8\U0001F1F3 HK 37"
-  - "\U0001F1E8\U0001F1F3 HK 38"
-  - "\U0001F1E8\U0001F1F3 HK 39"
-  - "\U0001F1E8\U0001F1F3 HK 40"
-  - "\U0001F1E8\U0001F1F3 HK 41"
-  - "\U0001F1E8\U0001F1F3 CN 42"
-  - "\U0001F1E8\U0001F1F3 CN 43"
+  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1EF\U0001F1F5 JP 33"
+  - "\U0001F1E8\U0001F1F3 HK 34"
+  - "\U0001F1EF\U0001F1F5 JP 35"
+  - "\U0001F1EF\U0001F1F5 JP 36"
+  - "\U0001F1EF\U0001F1F5 JP 37"
+  - "\U0001F1EF\U0001F1F5 JP 38"
+  - "\U0001F1EF\U0001F1F5 JP 39"
+  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1F3\U0001F1F1 NL 42"
+  - "\U0001F1EF\U0001F1F5 JP 43"
   - "\U0001F1E8\U0001F1F3 CN 44"
-  - "\U0001F1E8\U0001F1F3 HK 45"
-  - "\U0001F1EF\U0001F1F5 JP 46"
-  - "\U0001F1E8\U0001F1F3 CN 47"
-  - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1EF\U0001F1F5 JP 49"
-  - "\U0001F1EE\U0001F1E9 ID 50"
-  - "\U0001F1EF\U0001F1F5 JP 51"
-  - "\U0001F1EF\U0001F1F5 JP 52"
-  - "\U0001F1EF\U0001F1F5 JP 53"
-  - "\U0001F1EF\U0001F1F5 JP 54"
-  - "\U0001F1EF\U0001F1F5 JP 55"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1F3\U0001F1F1 NL 46"
+  - "\U0001F1F3\U0001F1F1 NL 47"
+  - "\U0001F1F3\U0001F1F1 NL 48"
+  - "\U0001F1F8\U0001F1EC SG 49"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1F8\U0001F1EC SG 51"
+  - "\U0001F1F8\U0001F1EC SG 52"
+  - "\U0001F1F8\U0001F1EC SG 53"
+  - "\U0001F1FA\U0001F1F8 US 54"
+  - "\U0001F1E8\U0001F1F3 TW 55"
   - "\U0001F1EF\U0001F1F5 JP 56"
-  - "\U0001F1EF\U0001F1F5 JP 57"
-  - "\U0001F1EF\U0001F1F5 JP 58"
-  - "\U0001F1E8\U0001F1F3 CN 59"
-  - "\U0001F1E8\U0001F1F3 HK 60"
-  - "\U0001F1EF\U0001F1F5 JP 61"
-  - "\U0001F1EF\U0001F1F5 JP 62"
-  - "\U0001F1EF\U0001F1F5 JP 63"
-  - "\U0001F1EF\U0001F1F5 JP 64"
-  - "\U0001F1F0\U0001F1F7 KR 65"
-  - "\U0001F1E8\U0001F1F3 CN 66"
-  - "\U0001F1E8\U0001F1F3 CN 67"
-  - "\U0001F1E8\U0001F1F3 CN 68"
-  - "\U0001F1E8\U0001F1F3 CN 69"
-  - "\U0001F1E8\U0001F1F3 CN 70"
-  - "\U0001F1F3\U0001F1F1 NL 71"
-  - "\U0001F1E8\U0001F1F3 CN 72"
-  - "\U0001F1F8\U0001F1EC SG 73"
-  - "\U0001F1F3\U0001F1F1 NL 74"
-  - "\U0001F1F3\U0001F1F1 NL 75"
-  - "\U0001F1F3\U0001F1F1 NL 76"
-  - "\U0001F1F3\U0001F1F1 NL 77"
-  - "\U0001F1F3\U0001F1F1 NL 78"
-  - "\U0001F1F8\U0001F1EC SG 79"
-  - "\U0001F1F8\U0001F1EC SG 80"
-  - "\U0001F1F8\U0001F1EC SG 81"
-  - "\U0001F1E8\U0001F1F3 CN 82"
-  - "\U0001F1F8\U0001F1EC SG 83"
-  - "\U0001F1E8\U0001F1F3 CN 84"
-  - "\U0001F1FA\U0001F1F8 US 85"
-  - "\U0001F1FA\U0001F1F8 US 86"
-  - "\U0001F1FA\U0001F1F8 US 87"
-  - "\U0001F1E8\U0001F1F3 TW 88"
-  - "\U0001F1E8\U0001F1F3 TW 89"
-  - "\U0001F1FA\U0001F1F8 US 90"
-  - "\U0001F1FA\U0001F1F8 US 91"
-  - "\U0001F1FA\U0001F1F8 US 92"
-  - "\U0001F1FA\U0001F1F8 US 93"
-  - "\U0001F1FA\U0001F1F8 US 94"
-  - "\U0001F1FA\U0001F1F8 US 95"
-  - "\U0001F1FA\U0001F1F8 US 96"
-  - "\U0001F1FA\U0001F1F8 US 97"
+  - "\U0001F1FA\U0001F1F8 US 57"
+  - "\U0001F1E8\U0001F1F3 TW 58"
+  - "\U0001F1FA\U0001F1F8 US 59"
+  - "\U0001F1FA\U0001F1F8 US 60"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1FA\U0001F1F8 US 62"
+  - "\U0001F1FA\U0001F1F8 US 63"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
