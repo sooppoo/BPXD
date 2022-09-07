@@ -80,13 +80,1406 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: 52.81.179.243
-  type: ss
+  server: ygzyd.sub-nthu.com
+  type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 10001
-  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 TW 2"
+  port: 35002
+  password: ae93d689-f6ce-429b-9855-4f5744b3dfea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: ygzyd.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35005
+  password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 0-b5c102ed3d84
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: bf3a94d3-f87b-44b5-a116-ebf8cb175a8c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4ffc7031-e013-4275-a915-95eb4ffc7031-e013-4275-a915-95eb4ba7b22b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: c-a403-846a0a458dbd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: fujimount02.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 9"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36301
+  password: 7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 10"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: 7166e177166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 11"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 12"
+  server: ca-trojan.bonds.id
+  type: trojan
+  country: "\U0001F1E8\U0001F1E6 CA"
+  port: 443
+  password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 13"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b649ba93-7795b649ba93-7795-486e-872c-bae835de3b35
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 14"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4af34af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 15"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff27d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: -43a9-9925-38529966d44f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 17"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd4af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 18"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 2f6f9bcf-4333-4baf-a187-15feb42e99c9
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: lion02.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 43b0-820c-08aa4b228ea9
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 21"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: edb85a24-0fa8-444f-8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 22"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ee2432e7-c61e-ee2432e7-c61e-4b61-accc-edef6f894a56
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 23"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 71667166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 25"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 82b2d677-89a0-494a-abe7-ea2aab235179
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1ED CH 26"
+  server: 185.126.116.235
+  type: trojan
+  country: "\U0001F1E8\U0001F1ED CH"
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36301
+  password: bf3a94d3-f87b-44b5-a116-ebf8cb175a8c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 28"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 576d0f76-9fe1-4752-87e8-b54019a7ca7f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 29"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: -4275-a915-95eb4ba7b22b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: aec5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 31"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 32"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 85a24-0fa8-444f-8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 33"
+  server: eagle01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36501
+  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 34"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 5fe8d4a8-563f-43b0-820c-08aa4b228ea9
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 35"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: afefa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 36"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: b649ba93-7795-486e-872c-bae835de3b35
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 37"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 8e505458-e41b-4397-b508-013d266029a4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 38"
+  server: cscu.wecanfly.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 40003
+  password: 58975106-dc46-4942-b79e-336da67f1bbd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 39"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3cd81c3d-8589-4baf-8779-3cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 40"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 12be1022-71db-419f-9c6c-601fc91d640c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 41"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: 3520f017-3394-42bf-b3eb-9f718016aec5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 42"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36301
+  password: b9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 43"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: -b5c102ed3d84
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 45"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3cd81c3d-8589-4ba3cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 46"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 882b2d677-89a0-494a-abe7-ea2aab235179
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 47"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 2bc20fd1-d642-4cd12bc20fd1-d642-4cd1-bad9-b031d24d100d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 48"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: ee2432e7-c61e-4b61-accc-edef6f894a56
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 49"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 33ea10db-0831-489c-a403-846a0a458dbd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: fujimount02.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: 3cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 51"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7c67c6e8222-26fb-43a9-9925-38529966d44f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 52"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: 7166e17c-286a-4aca-8383-2507166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 53"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: 7166e17c-286a-4aca-8383-25057166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 54"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b22b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 55"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: 031-e013-4275-a915-95eb4ba7b22b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 56"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ed18b935-f98d-45cf-a8c5-70b21ed0000a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 57"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b6f8d6bd-78a9b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 58"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 7c6e8222-26fb-43a9-9925-38529966d44f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 59"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 60"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 8bc8bce6db3-5158-48e9-8c9e-359f315afefa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 61"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b649ba93-7795-486e-872c-bae835deb649ba93-7795-486e-872c-bae835de3b35
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 62"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4af3139d-7896-4bdd-8d45-6bd55c724af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 63"
+  server: hygz.doggogogo.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 50102
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 64"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 2bc20fd1-d62bc20fd1-d642-4cd1-bad9-b031d24d100d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 65"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: 7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 66"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e17c-286a-4aca-8383-250506f4e1d7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 67"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 68"
+  server: ct.91js.pw
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 10051
+  password: a13820c547fa34c5c45515c12f0cd576
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 69"
+  server: shlt.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35001
+  password: 5ab7bd49-c430-4d25-8287-5e77870ea7c9
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 70"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: -3394-42bf-b3eb-9f718016aec5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 71"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: ff270e45-9ab4-4c7a-bddf-0d72aef056eb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 72"
+  server: shlt.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35007
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 73"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 576d0f7576d0f76-9fe1-4752-87e8-b54019a7ca7f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 74"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 75"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 55d463e81-42a1-492e-83aa-d7a54b7f00a6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 76"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35005
+  password: ae93d689-f6ce-429b-9855-4f5744b3dfea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 77"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4fa0a1b7-5213-44d5-bd63-7588c72a257a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 78"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 79"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 8e505458-e41b-438e505458-e41b-4397-b508-013d266029a4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 80"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 8-444f-8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 81"
+  server: ygzyd.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35005
+  password: ae93d689-f6ce-429b-9855-4f5744b3dfea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 82"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: -bd63-7588c72a257a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 83"
+  server: ygzyd.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35002
+  password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 84"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4ffc7031-e013-4275-a9154ffc7031-e013-4275-a915-95eb4ba7b22b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 85"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7c6e8222-26fb-43a9-9925-38529967c6e8222-26fb-43a9-9925-38529966d44f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 86"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: bad190a8-6f5d-4fbb-b1eb-0c557d1187b0
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 87"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e17c-286a-4aca-8383-27166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 88"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3cd81c3d-8583cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 89"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7c6e8222-26fb-43a9-99257c6e8222-26fb-43a9-9925-38529966d44f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 90"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: b9b55277-010a-48de-8ad9b9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 91"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36401
+  password: bf3a94d3-f87b-44b5-a116-ebf8cb175a8c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 92"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: b9bb9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 93"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: b649ba93-7795-48b649ba93-7795-486e-872c-bae835de3b35
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 94"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: bad190a8-6f5dbad190a8-6f5d-4fbb-b1eb-0c557d1187b0
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 95"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: edb8edb85a24-0fa8-444f-8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 96"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4f4fa0a1b7-5213-44d5-bd63-7588c72a257a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 97"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3520f017-3394-423520f017-3394-42bf-b3eb-9f718016aec5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 98"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36601
+  password: bf3a94d3-f87b-44b5-a116-ebf8cb175a8c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 99"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ed18b935-f98d-45cfed18b935-f98d-45cf-a8c5-70b21ed0000a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 100"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36701
+  password: b9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 101"
+  server: cscu.wecanfly.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 40003
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 102"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 88c72a257a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 103"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 2bc20fd1-d642-4cd1-bad9-b2bc20fd1-d642-4cd1-bad9-b031d24d100d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 104"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 5fe8d4a8-563f-43b0-820c-08aa4b5fe8d4a8-563f-43b0-820c-08aa4b228ea9
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 105"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 106"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36201
+  password: b9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 107"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 1212be1022-71db-419f-9c6c-601fc91d640c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 108"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 4af3139d-7896-4bdd-8d45-6bd554af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 109"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 4fa0a1b7-4fa0a1b7-5213-44d5-bd63-7588c72a257a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 110"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: c8e2387a-55c8e2387a-55b0-4a9c-92ac-0dc7464e77ea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 111"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: edb85a24-edb85a24-0fa8-444f-8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 112"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 4ffc7031-e013-4275-a915-95eb4ba7b224ffc7031-e013-4275-a915-95eb4ba7b22b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 113"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36501
+  password: bf3a94d3-f87b-44b5-abf3a94d3-f87b-44b5-a116-ebf8cb175a8c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 114"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36306
+  password: 0f76-9fe1-4752-87e8-b54019a7ca7f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 115"
+  server: cscu.wecanfly.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 50207
+  password: 5eaea1b9-b977-3391-b7cb-370addb40ce2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 116"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b9b55277-010a-48b9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 117"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35007
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 118"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 4af3139d-7896-4bdd-8d45-6bd55c72fcd1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 119"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b6f8d6bd-78a9-4c39b6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 120"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 8bce6db3-5158-48e9-8c9e-359f315afefa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 121"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 33e33ea10db-0831-489c-a403-846a0a458dbd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 122"
+  server: ygzyd.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35001
+  password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 123"
+  server: ygzyd.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35003
+  password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 124"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: dc6fd2e6-4ccc-46c6-b152-0d2171809e74
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 125"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 82b2d677-89a0-494a-a82b2d677-89a0-494a-abe7-ea2aab235179
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 126"
+  server: shlt.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35003
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 127"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ed18b9ed18b935-f98d-45cf-a8c5-70b21ed0000a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 128"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 2bc20fd1-d642-4cd1-bad9-b02bc20fd1-d642-4cd1-bad9-b031d24d100d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 129"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 0eaa2a58-9e6a-4914-8379-9df40eaa2a58-9e6a-4914-8379-9df49fff27d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 130"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3520f0173520f017-3394-42bf-b3eb-9f718016aec5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 131"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35003
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 132"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36106
+  password: 5d463e81-42a1-492e-83aa-d7a54b7f00a6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 133"
+  server: ygzyd.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35000
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 134"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e17c-286a-4aca7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 135"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 4fa0a1b7-5213-44d5-bd63-75884fa0a1b7-5213-44d5-bd63-7588c72a257a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 136"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35001
+  password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 137"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: e9e5bf97-fde9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 138"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ed18b935-f98ded18b935-f98d-45cf-a8c5-70b21ed0000a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 139"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 0-b5c102ed3d84
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 140"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b6f8d6bb6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 141"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35000
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 142"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3cd81c33cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 143"
+  server: gy2.zfnode.org
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 31689
+  password: 2796b9f1-3afe-48ed-bd65-874f8a15ac8f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 144"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: 7166e17c-286a-4aca-8383-250506f47166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 145"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 12be1022-71db-419f-9c612be1022-71db-419f-9c6c-601fc91d640c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 146"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3cd81c3d-8589-4baf-8779-53201043cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 147"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e17c-286a-4aca-8383-7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 148"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: e9e5bf97-fd75-4e2e-8380-b5c102ed3de9e5bf97-fd75-4e2e-8380-b5c102ed3d84
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 149"
+  server: hygz.doggogogo.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 50102
+  password: 58975106-dc46-4942-b79e-336da67f1bbd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 150"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: b9b55277-010a-48de-b9b55277-010a-48de-8ad9-0fa1bb7de676
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 151"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 82b2d677-89a0-494a-82b2d677-89a0-494a-abe7-ea2aab235179
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 152"
+  server: shlt.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35001
+  password: 2eb3d644-0151-47af-ac39-7a8fc6a7acb6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 153"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e17c-286a-4aca-8383-250506f4e17166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 154"
+  server: 19204tj.matrixxx888.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 19204
+  password: 084a8035-579c-3486-bb59-b6ab3b31b131
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 155"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 8e58e505458-e41b-4397-b508-013d266029a4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 156"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: 7166e17c7166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 157"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: edb85aedb85a24-0fa8-444f-8d5d-5153a41db743
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 158"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff270eaa2a58-9e6a-4914-8379-9df49fff27d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 159"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ed1ed18b935-f98d-45cf-a8c5-70b21ed0000a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 160"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35002
+  password: eda8a8e5-1076-4d7b-b1d0-5003a0350073
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 161"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ff270e45-9ab4-4c7a-ff270e45-9ab4-4c7a-bddf-0d72aef056eb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 162"
+  server: cn2hn.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35002
+  password: ae93d689-f6ce-429b-9855-4f5744b3dfea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 163"
+  server: tw-tpe-h-tr.cdn.savoy.click
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 10089
+  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 164"
+  server: 19206tj.matrixxx888.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 19206
+  password: 084a8035-579c-3486-bb59-b6ab3b31b131
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 165"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36116
+  password: 7166e17c-286a-4aca-837166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 166"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 8e505458-e41b-4397-b508-013d2668e505458-e41b-4397-b508-013d266029a4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 167"
+  server: bauhinia01.abzoones.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 7166e17c-286a-4aca-8383-250507166e17c-286a-4aca-8383-250506f4e1d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 168"
+  server: 2.58.242.43
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 443
+  password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 169"
+  server: shlt.sub-nthu.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 35005
+  password: ae93d689-f6ce-429b-9855-4f5744b3dfea
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 170"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: b6f8d6bd-78a9-4c39-86abb6f8d6bd-78a9-4c39-86ab-f9d8cc7e2500
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 171"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 82b2d677-89a0-494a-abe7-ea2aab2382b2d677-89a0-494a-abe7-ea2aab235179
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 172"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: 3520f017-3394-42bf-b3eb-9f71803520f017-3394-42bf-b3eb-9f718016aec5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 173"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36606
+  password: 0eaa2a58-9e6a-4914-8379-9df49fff0eaa2a58-9e6a-4914-8379-9df49fff27d3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 174"
+  server: bauhinia01.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 36206
+  password: ff270e45-9abff270e45-9ab4-4c7a-bddf-0d72aef056eb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 175"
+  server: mv-tw05.link
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 443
+  password: s6rIg1Mkke73fwZU
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 176"
   server: 823tw.tfzhc.top
   type: trojan
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -94,85 +1487,261 @@ proxies:
   password: 21aefd43-c656-4c38-8c99-afe5aee918d6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 3"
-  server: ty1-1.crabyakiniku.com
+- name: "\U0001F1E8\U0001F1F3 TW 177"
+  server: tw-oo-01.click
   type: trojan
-  country: "\U0001F1E9\U0001F1EA DE"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 443
-  password: UhCF2JxsDxStDp5NTQ
+  password: q8uTrVmj95aTrFAa
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 4"
-  server: 35.180.202.38
+- name: "\U0001F1EB\U0001F1EE FI 178"
+  server: youtube-bai-piao-wang-zhe-us.98848.xyz
+  type: trojan
+  country: "\U0001F1EB\U0001F1EE FI"
+  port: 443
+  password: 87692198-6926-4e98-9baf-9198ffd1e73d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 179"
+  server: cz.v212.fun
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 443
+  password: 9c7a49a2-ddff-4654-925b-baa7913dbc56
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 180"
+  server: 13.38.13.95
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
   port: 443
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 5"
-  server: 18.170.39.237
+- name: "\U0001F1E9\U0001F1EA DE 181"
+  server: 156.146.33.73
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 443
+  password: tHRGtUaFo5S2F6NERVUlFw
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 182"
+  server: 19203tj.matrixxx888.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 19203
+  password: 084a8035-579c-3486-bb59-b6ab3b31b131
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 183"
+  server: det-1.opensvr.net
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: opentunnel.net-qe27t3x1m924z140b9rv
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 184"
+  server: 13.40.154.20
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
   port: 443
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: pull-cache-lu01.xyx-xylo.com
+- name: "\U0001F1EC\U0001F1E7 GB 185"
+  server: stallings.defun.us
   type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 19701
-  password: 79745894-044c-3298-a893-bbfcb6b24a2c
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 7"
-  server: 120.241.126.41
+- name: "\U0001F1FA\U0001F1F8 US 186"
+  server: ukt-1.opensvr.net
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: opentunnel.net-zdrgvbhjnmhgfx
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 187"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24001
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1EC\U0001F1E7 GB 188"
+  server: scottie.golfland.club
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E9\U0001F1EA DE 189"
+  server: hk31.ssgnode.ga
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 41742_920c8caa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 190"
+  server: ssl.tcpbbr.net
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 12163
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 191"
+  server: node-hk.pyhdxy.top
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 10000
+  password: f9628fbd-ef2a-4d8a-baa7-9b8a56a91091
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E9\U0001F1EA DE 192"
+  server: ty1-3.crabyakiniku.com
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 443
+  password: UhCF2JxsDxStDp5NTQ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 193"
+  server: hk1.ijsfq.xyz
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 37892
+  password: 686272d9-b2cb-4bb5-b5bd-8813b8c2b32a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1E9 ID 194"
+  server: id5-trojan.bonds.id
+  type: trojan
+  country: "\U0001F1EE\U0001F1E9 ID"
+  port: 443
+  password: 5ed77350-f8d5-11ec-a990-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 195"
+  server: www.seetheworldjp.ga
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: f42e1a2e-e650-44f4-8d17-bcb68663da18
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 196"
+  server: jp.useanlo.cf
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 6523
+  password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 197"
+  server: trojannmfan7.ripwallllc.com
+  type: trojan
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 443
+  password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 198"
+  server: tw.softbank.mjj-home.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: share.mjj-home.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 199"
+  server: 153.122.173.202
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: d9a81731-3abb-37ed-a0b0-bff56f3f5a1c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 200"
+  server: lion02.allbluedns.xyz
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 36206
+  password: 3cd81c3d-8589-4baf-8779-53201047a22e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 201"
+  server: jp2.ijsfq.xyz
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 37892
+  password: 8d3b8186-16c8-428d-bc05-685603ffed0a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 202"
+  server: jpo.llbb.cf
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 203"
+  server: yokohama.freetrade.link
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: C3YS0KAq8x5jgpNnCeC3aa3DFXw9Aczu8DaeBpy6Fy34xSZEYORDTIZRlSl72O
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 204"
+  server: www.tokyo2023.ga
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 4f7dc540-d244-4e64-af21-4b5bb300add3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 205"
+  server: hk2.ijsfq.xyz
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 37892
+  password: 8d3b8186-16c8-428d-bc05-685603ffed0a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 206"
+  server: jpa.llbb.cf
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 207"
+  server: 52.81.179.243
   type: ss
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 10001
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   cipher: aes-128-gcm
-- name: "\U0001F1EE\U0001F1E9 ID 8"
-  server: 41.216.177.41
+- name: "\U0001F1F0\U0001F1F7 KR 208"
+  server: krcc4.feethree.top
   type: trojan
-  country: "\U0001F1EE\U0001F1E9 ID"
-  port: 443
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 9038
+  password: 77065fa6-b38e-302c-beea-4b047967af01
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 9"
-  server: 103.103.245.125
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 50418
-  password: a70b39d1-62ea-4d9e-b681-9c5408352234
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 10"
-  server: 823jp.tfzhc.top
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 11"
-  server: 3.113.0.3
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12"
-  server: moblev3.mipglxi.cn
-  type: ss
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 6612
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  cipher: aes-128-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 13"
+- name: "\U0001F1EF\U0001F1F5 JP 209"
   server: musashino.freetrade.link
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -180,31 +1749,31 @@ proxies:
   password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 14"
-  server: 150.230.249.42
+- name: "\U0001F1EF\U0001F1F5 JP 210"
+  server: trojannmfan5.ripwallllc.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 211"
+  server: www.gomacau.gq
   type: trojan
   country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: 0Y9gOHSdRt
+  password: b5fc9fa9-796d-4185-a316-395ecac04a85
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 15"
-  server: 831sg.tfzhc.top
+- name: "\U0001F1F0\U0001F1F7 KR 212"
+  server: hg.053111.xyz
   type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
+  country: "\U0001F1F0\U0001F1F7 KR"
   port: 443
-  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
+  password: d4435b69-3d08-d58a-919f-7f1707150ecb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 16"
-  server: tw93.tfzhc.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 80
-  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 17"
+- name: "\U0001F1F8\U0001F1EC SG 213"
   server: 93hk02.tfzhc.top
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -212,39 +1781,278 @@ proxies:
   password: 21aefd43-c656-4c38-8c99-afe5aee918d6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 18"
-  server: 54.188.171.13
+- name: "\U0001F1E8\U0001F1F3 CN 214"
+  server: 120.241.126.41
+  type: ss
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 10001
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+  cipher: aes-128-gcm
+- name: "\U0001F1F8\U0001F1EC SG 215"
+  server: 184.168.127.50
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 216"
+  server: simpang.freetrade.link
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: XEyN0OZ28xxCDO7C83DeAa3YcSjYKTgFA5n9IRpFwuB3qSz4aZClSapy3eRl6D
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 217"
+  server: singapore.anthoncloud.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 3306
+  password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 218"
+  server: 150.230.249.42
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 0Y9gOHSdRt
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 219"
+  server: www.anloao.cf
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 9053
+  password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 220"
+  server: trojan3.udpgw.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 8db1b560-019d-11ed-8bdf-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 221"
+  server: sgp1.ijsfq.xyz
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 37892
+  password: 8d3b8186-16c8-428d-bc05-685603ffed0a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 222"
+  server: 831sg.tfzhc.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 223"
+  server: trojan2.udpgw.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 973ef350-f6a5-11ec-9274-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 224"
+  server: sg3-trojan.bonds.id
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 97fdf760-7bbf-11eb-8e14-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E9\U0001F1EA DE 225"
+  server: ty1-1.nigirocloud.com
+  type: trojan
+  country: "\U0001F1E9\U0001F1EA DE"
+  port: 443
+  password: 4V4kxVXmcg5Yn2DqF2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 226"
+  server: sghe.tjvpn.org
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 363b95c0-e9ec-11ec-b631-225401db9d57
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 227"
+  server: tw93.tfzhc.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 80
+  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 228"
+  server: w12.udpgw.com
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: 08964210-e7b8-11ec-95aa-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 229"
+  server: ehe.ijsfq.xyz
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 37892
+  password: 8d3b8186-16c8-428d-bc05-685603ffed0a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 230"
+  server: us-trojan.bonds.id
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  password: iyinglong
+  password: 38239dd0-902b-11eb-afc1-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FB\U0001F1F3 VN 19"
-  server: hanoi-4.4g.mkvn.net
+- name: "\U0001F1FA\U0001F1F8 US 231"
+  server: music.missionsec.us
   type: trojan
-  country: "\U0001F1FB\U0001F1F3 VN"
+  country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  password: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 20"
-  server: 8.9.30.35
+- name: "\U0001F1FA\U0001F1F8 US 232"
+  server: 72.167.45.6
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 29544
-  password: rmo75mm5xK
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 21"
-  server: rbobosz.eu.org
+- name: "\U0001F1FA\U0001F1F8 US 233"
+  server: t03.ssrsub.com.xyz
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 45172
-  password: 88GlNLp1mC
+  port: 443
+  password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 22"
+- name: "\U0001F1FA\U0001F1F8 US 234"
+  server: byw.h99xbwg.xyz
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: cf29d373-cf69-4346-b31a-ab9d224f60f2
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F7\U0001F1FA RU 235"
+  server: us1.nodegz.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 236"
+  server: s162.s2022.xyz
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 23802
+  password: f450f309-bd8b-39ad-8bef-6fdf42fe8d94
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 237"
+  server: s3.hazz.win
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 238"
+  server: us2.llbb.cf
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 239"
+  server: 4837.necirly.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 3fb3b8b4e9
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 240"
+  server: cuttlefish.fireplay.io
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 18331
+  password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 241"
+  server: upay.com
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 242"
+  server: games.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 243"
+  server: sp.llbb.cf
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 244"
+  server: antechinus.fireplay.io
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 245"
+  server: hawaii.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 18331
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 246"
+  server: trojannmfan1.ripwallllc.com
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 247"
+  server: gifts.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 248"
   server: us2.tcpbbr.net
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -252,32 +2060,456 @@ proxies:
   password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 249"
+  server: editors.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 250"
+  server: la2.ijsfq.xyz
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 37892
+  password: 8d3b8186-16c8-428d-bc05-685603ffed0a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 251"
+  server: 72.167.33.106
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 252"
+  server: us1.llbb.cf
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 253"
+  server: 173.82.192.61
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 254"
+  server: hacks.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 255"
+  server: fresh.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 18331
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 256"
+  server: i12.llbb.cf
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 257"
+  server: movies.missionsec.us
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 18331
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 258"
+  server: xioix.gq
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FB\U0001F1F3 VN 259"
+  server: hanoi-4.4g.mkvn.net
+  type: trojan
+  country: "\U0001F1FB\U0001F1F3 VN"
+  port: 443
+  password: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FB\U0001F1F3 VN 260"
+  server: vn-trojan2.bonds.id
+  type: trojan
+  country: "\U0001F1FB\U0001F1F3 VN"
+  port: 443
+  password: 82d48080-9856-11ec-abeb-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 261"
+  server: nlt-1.opensvr.net
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1 NL"
+  port: 443
+  password: opentunnel.net-jp24kq02r78xxotwhkpm
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 262"
+  server: i22s1.llbb.cf
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 8443
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 263"
+  server: vip-kl-01.click
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: q8uTrVmj95aTrFAa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FB\U0001F1F3 VN 264"
+  server: 103.173.155.72
+  type: trojan
+  country: "\U0001F1FB\U0001F1F3 VN"
+  port: 28443
+  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 265"
+  server: assets.freetrade.link
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: T3YSRnD2AuS9xRF36F834y3DaIwNCZzgAeC7CeS8aBcxKjEYp0qXDpOllOayZ5
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 266"
+  server: sg6-trojan.bonds.id
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 81e9f5f0-1c92-11ed-8d18-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 267"
+  server: api.mjj-home.com
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: share.mjj-home.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 268"
+  server: tr04.kaochangonline.online
+  type: trojan
+  country: "\U0001F3C1 ZZ"
+  port: 443
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 269"
+  server: 198.147.22.87
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 530e1804-6724-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 270"
+  server: rbobosz.eu.org
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 45172
+  password: 88GlNLp1mC
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1E8\U0001F1F3 CN 1"
-  - "\U0001F1E8\U0001F1F3 TW 2"
-  - "\U0001F1E9\U0001F1EA DE 3"
-  - "\U0001F1EB\U0001F1F7 FR 4"
-  - "\U0001F1EC\U0001F1E7 GB 5"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1EE\U0001F1E9 ID 8"
-  - "\U0001F1E8\U0001F1F3 HK 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1EF\U0001F1F5 JP 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1EF\U0001F1F5 JP 13"
-  - "\U0001F1F0\U0001F1F7 KR 14"
-  - "\U0001F1F8\U0001F1EC SG 15"
-  - "\U0001F1E8\U0001F1F3 TW 16"
-  - "\U0001F1F8\U0001F1EC SG 17"
-  - "\U0001F1FA\U0001F1F8 US 18"
-  - "\U0001F1FB\U0001F1F3 VN 19"
-  - "\U0001F1FA\U0001F1F8 US 20"
-  - "\U0001F1FA\U0001F1F8 US 21"
-  - "\U0001F1FA\U0001F1F8 US 22"
+  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 CN 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1E6 CA 12"
+  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1E8\U0001F1F3 CN 14"
+  - "\U0001F1E8\U0001F1F3 CN 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
+  - "\U0001F1E8\U0001F1F3 CN 17"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1E8\U0001F1F3 CN 23"
+  - "\U0001F1E8\U0001F1F3 CN 24"
+  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1E8\U0001F1ED CH 26"
+  - "\U0001F1E8\U0001F1F3 CN 27"
+  - "\U0001F1E8\U0001F1F3 CN 28"
+  - "\U0001F1E8\U0001F1F3 CN 29"
+  - "\U0001F1E8\U0001F1F3 CN 30"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1E8\U0001F1F3 CN 33"
+  - "\U0001F1E8\U0001F1F3 CN 34"
+  - "\U0001F1E8\U0001F1F3 CN 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1E8\U0001F1F3 CN 37"
+  - "\U0001F1E8\U0001F1F3 CN 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1E8\U0001F1F3 CN 42"
+  - "\U0001F1E8\U0001F1F3 CN 43"
+  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1E8\U0001F1F3 CN 46"
+  - "\U0001F1E8\U0001F1F3 CN 47"
+  - "\U0001F1E8\U0001F1F3 CN 48"
+  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1E8\U0001F1F3 CN 52"
+  - "\U0001F1E8\U0001F1F3 CN 53"
+  - "\U0001F1E8\U0001F1F3 CN 54"
+  - "\U0001F1E8\U0001F1F3 CN 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
+  - "\U0001F1E8\U0001F1F3 CN 58"
+  - "\U0001F1E8\U0001F1F3 CN 59"
+  - "\U0001F1E8\U0001F1F3 CN 60"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1E8\U0001F1F3 CN 62"
+  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1E8\U0001F1F3 CN 64"
+  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1E8\U0001F1F3 CN 66"
+  - "\U0001F1E8\U0001F1F3 CN 67"
+  - "\U0001F1E8\U0001F1F3 CN 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 CN 70"
+  - "\U0001F1E8\U0001F1F3 CN 71"
+  - "\U0001F1E8\U0001F1F3 CN 72"
+  - "\U0001F1E8\U0001F1F3 CN 73"
+  - "\U0001F1E8\U0001F1F3 CN 74"
+  - "\U0001F1E8\U0001F1F3 CN 75"
+  - "\U0001F1E8\U0001F1F3 CN 76"
+  - "\U0001F1E8\U0001F1F3 CN 77"
+  - "\U0001F1E8\U0001F1F3 CN 78"
+  - "\U0001F1E8\U0001F1F3 CN 79"
+  - "\U0001F1E8\U0001F1F3 CN 80"
+  - "\U0001F1E8\U0001F1F3 CN 81"
+  - "\U0001F1E8\U0001F1F3 CN 82"
+  - "\U0001F1E8\U0001F1F3 CN 83"
+  - "\U0001F1E8\U0001F1F3 CN 84"
+  - "\U0001F1E8\U0001F1F3 CN 85"
+  - "\U0001F1E8\U0001F1F3 CN 86"
+  - "\U0001F1E8\U0001F1F3 CN 87"
+  - "\U0001F1E8\U0001F1F3 CN 88"
+  - "\U0001F1E8\U0001F1F3 CN 89"
+  - "\U0001F1E8\U0001F1F3 CN 90"
+  - "\U0001F1E8\U0001F1F3 CN 91"
+  - "\U0001F1E8\U0001F1F3 CN 92"
+  - "\U0001F1E8\U0001F1F3 CN 93"
+  - "\U0001F1E8\U0001F1F3 CN 94"
+  - "\U0001F1E8\U0001F1F3 CN 95"
+  - "\U0001F1E8\U0001F1F3 CN 96"
+  - "\U0001F1E8\U0001F1F3 CN 97"
+  - "\U0001F1E8\U0001F1F3 CN 98"
+  - "\U0001F1E8\U0001F1F3 CN 99"
+  - "\U0001F1E8\U0001F1F3 CN 100"
+  - "\U0001F1E8\U0001F1F3 CN 101"
+  - "\U0001F1E8\U0001F1F3 CN 102"
+  - "\U0001F1E8\U0001F1F3 CN 103"
+  - "\U0001F1E8\U0001F1F3 CN 104"
+  - "\U0001F1E8\U0001F1F3 CN 105"
+  - "\U0001F1E8\U0001F1F3 CN 106"
+  - "\U0001F1E8\U0001F1F3 CN 107"
+  - "\U0001F1E8\U0001F1F3 CN 108"
+  - "\U0001F1E8\U0001F1F3 CN 109"
+  - "\U0001F1E8\U0001F1F3 CN 110"
+  - "\U0001F1E8\U0001F1F3 CN 111"
+  - "\U0001F1E8\U0001F1F3 CN 112"
+  - "\U0001F1E8\U0001F1F3 CN 113"
+  - "\U0001F1E8\U0001F1F3 CN 114"
+  - "\U0001F1E8\U0001F1F3 CN 115"
+  - "\U0001F1E8\U0001F1F3 CN 116"
+  - "\U0001F1E8\U0001F1F3 CN 117"
+  - "\U0001F1E8\U0001F1F3 CN 118"
+  - "\U0001F1E8\U0001F1F3 CN 119"
+  - "\U0001F1E8\U0001F1F3 CN 120"
+  - "\U0001F1E8\U0001F1F3 CN 121"
+  - "\U0001F1E8\U0001F1F3 CN 122"
+  - "\U0001F1E8\U0001F1F3 CN 123"
+  - "\U0001F1E8\U0001F1F3 CN 124"
+  - "\U0001F1E8\U0001F1F3 CN 125"
+  - "\U0001F1E8\U0001F1F3 CN 126"
+  - "\U0001F1E8\U0001F1F3 CN 127"
+  - "\U0001F1E8\U0001F1F3 CN 128"
+  - "\U0001F1E8\U0001F1F3 CN 129"
+  - "\U0001F1E8\U0001F1F3 CN 130"
+  - "\U0001F1E8\U0001F1F3 CN 131"
+  - "\U0001F1E8\U0001F1F3 CN 132"
+  - "\U0001F1E8\U0001F1F3 CN 133"
+  - "\U0001F1E8\U0001F1F3 CN 134"
+  - "\U0001F1E8\U0001F1F3 CN 135"
+  - "\U0001F1E8\U0001F1F3 CN 136"
+  - "\U0001F1E8\U0001F1F3 CN 137"
+  - "\U0001F1E8\U0001F1F3 CN 138"
+  - "\U0001F1E8\U0001F1F3 CN 139"
+  - "\U0001F1E8\U0001F1F3 CN 140"
+  - "\U0001F1E8\U0001F1F3 CN 141"
+  - "\U0001F1E8\U0001F1F3 CN 142"
+  - "\U0001F1E8\U0001F1F3 CN 143"
+  - "\U0001F1E8\U0001F1F3 CN 144"
+  - "\U0001F1E8\U0001F1F3 CN 145"
+  - "\U0001F1E8\U0001F1F3 CN 146"
+  - "\U0001F1E8\U0001F1F3 CN 147"
+  - "\U0001F1E8\U0001F1F3 CN 148"
+  - "\U0001F1E8\U0001F1F3 CN 149"
+  - "\U0001F1E8\U0001F1F3 CN 150"
+  - "\U0001F1E8\U0001F1F3 CN 151"
+  - "\U0001F1E8\U0001F1F3 CN 152"
+  - "\U0001F1E8\U0001F1F3 CN 153"
+  - "\U0001F1E8\U0001F1F3 CN 154"
+  - "\U0001F1E8\U0001F1F3 CN 155"
+  - "\U0001F1E8\U0001F1F3 CN 156"
+  - "\U0001F1E8\U0001F1F3 CN 157"
+  - "\U0001F1E8\U0001F1F3 CN 158"
+  - "\U0001F1E8\U0001F1F3 CN 159"
+  - "\U0001F1E8\U0001F1F3 CN 160"
+  - "\U0001F1E8\U0001F1F3 CN 161"
+  - "\U0001F1E8\U0001F1F3 CN 162"
+  - "\U0001F1E8\U0001F1F3 CN 163"
+  - "\U0001F1E8\U0001F1F3 CN 164"
+  - "\U0001F1E8\U0001F1F3 CN 165"
+  - "\U0001F1E8\U0001F1F3 CN 166"
+  - "\U0001F1E8\U0001F1F3 CN 167"
+  - "\U0001F1E8\U0001F1F3 TW 168"
+  - "\U0001F1E8\U0001F1F3 CN 169"
+  - "\U0001F1E8\U0001F1F3 CN 170"
+  - "\U0001F1E8\U0001F1F3 CN 171"
+  - "\U0001F1E8\U0001F1F3 CN 172"
+  - "\U0001F1E8\U0001F1F3 CN 173"
+  - "\U0001F1E8\U0001F1F3 CN 174"
+  - "\U0001F1E8\U0001F1F3 TW 175"
+  - "\U0001F1E8\U0001F1F3 TW 176"
+  - "\U0001F1E8\U0001F1F3 TW 177"
+  - "\U0001F1EB\U0001F1EE FI 178"
+  - "\U0001F1E8\U0001F1FF CZ 179"
+  - "\U0001F1EB\U0001F1F7 FR 180"
+  - "\U0001F1E9\U0001F1EA DE 181"
+  - "\U0001F1E8\U0001F1F3 CN 182"
+  - "\U0001F1EB\U0001F1F7 FR 183"
+  - "\U0001F1EC\U0001F1E7 GB 184"
+  - "\U0001F1EC\U0001F1E7 GB 185"
+  - "\U0001F1FA\U0001F1F8 US 186"
+  - "\U0001F1E8\U0001F1F3 CN 187"
+  - "\U0001F1EC\U0001F1E7 GB 188"
+  - "\U0001F1E9\U0001F1EA DE 189"
+  - "\U0001F1E8\U0001F1F3 HK 190"
+  - "\U0001F1E8\U0001F1F3 HK 191"
+  - "\U0001F1E9\U0001F1EA DE 192"
+  - "\U0001F1E8\U0001F1F3 HK 193"
+  - "\U0001F1EE\U0001F1E9 ID 194"
+  - "\U0001F1EF\U0001F1F5 JP 195"
+  - "\U0001F1EF\U0001F1F5 JP 196"
+  - "\U0001F1EE\U0001F1F3 IN 197"
+  - "\U0001F1EF\U0001F1F5 JP 198"
+  - "\U0001F1EF\U0001F1F5 JP 199"
+  - "\U0001F1EF\U0001F1F5 JP 200"
+  - "\U0001F1EF\U0001F1F5 JP 201"
+  - "\U0001F1EF\U0001F1F5 JP 202"
+  - "\U0001F1EF\U0001F1F5 JP 203"
+  - "\U0001F1EF\U0001F1F5 JP 204"
+  - "\U0001F1E8\U0001F1F3 HK 205"
+  - "\U0001F1EF\U0001F1F5 JP 206"
+  - "\U0001F1E8\U0001F1F3 CN 207"
+  - "\U0001F1F0\U0001F1F7 KR 208"
+  - "\U0001F1EF\U0001F1F5 JP 209"
+  - "\U0001F1EF\U0001F1F5 JP 210"
+  - "\U0001F1F0\U0001F1F7 KR 211"
+  - "\U0001F1F0\U0001F1F7 KR 212"
+  - "\U0001F1F8\U0001F1EC SG 213"
+  - "\U0001F1E8\U0001F1F3 CN 214"
+  - "\U0001F1F8\U0001F1EC SG 215"
+  - "\U0001F1F8\U0001F1EC SG 216"
+  - "\U0001F1F8\U0001F1EC SG 217"
+  - "\U0001F1F0\U0001F1F7 KR 218"
+  - "\U0001F1F8\U0001F1EC SG 219"
+  - "\U0001F1F8\U0001F1EC SG 220"
+  - "\U0001F1F8\U0001F1EC SG 221"
+  - "\U0001F1F8\U0001F1EC SG 222"
+  - "\U0001F1F8\U0001F1EC SG 223"
+  - "\U0001F1F8\U0001F1EC SG 224"
+  - "\U0001F1E9\U0001F1EA DE 225"
+  - "\U0001F1F8\U0001F1EC SG 226"
+  - "\U0001F1E8\U0001F1F3 TW 227"
+  - "\U0001F1F8\U0001F1EC SG 228"
+  - "\U0001F1FA\U0001F1F8 US 229"
+  - "\U0001F1FA\U0001F1F8 US 230"
+  - "\U0001F1FA\U0001F1F8 US 231"
+  - "\U0001F1FA\U0001F1F8 US 232"
+  - "\U0001F1FA\U0001F1F8 US 233"
+  - "\U0001F1FA\U0001F1F8 US 234"
+  - "\U0001F1F7\U0001F1FA RU 235"
+  - "\U0001F1FA\U0001F1F8 US 236"
+  - "\U0001F1FA\U0001F1F8 US 237"
+  - "\U0001F1FA\U0001F1F8 US 238"
+  - "\U0001F1FA\U0001F1F8 US 239"
+  - "\U0001F1FA\U0001F1F8 US 240"
+  - "\U0001F1FA\U0001F1F8 US 241"
+  - "\U0001F1FA\U0001F1F8 US 242"
+  - "\U0001F1FA\U0001F1F8 US 243"
+  - "\U0001F1FA\U0001F1F8 US 244"
+  - "\U0001F1FA\U0001F1F8 US 245"
+  - "\U0001F1FA\U0001F1F8 US 246"
+  - "\U0001F1FA\U0001F1F8 US 247"
+  - "\U0001F1FA\U0001F1F8 US 248"
+  - "\U0001F1FA\U0001F1F8 US 249"
+  - "\U0001F1FA\U0001F1F8 US 250"
+  - "\U0001F1FA\U0001F1F8 US 251"
+  - "\U0001F1FA\U0001F1F8 US 252"
+  - "\U0001F1FA\U0001F1F8 US 253"
+  - "\U0001F1FA\U0001F1F8 US 254"
+  - "\U0001F1FA\U0001F1F8 US 255"
+  - "\U0001F1FA\U0001F1F8 US 256"
+  - "\U0001F1FA\U0001F1F8 US 257"
+  - "\U0001F1FA\U0001F1F8 US 258"
+  - "\U0001F1FB\U0001F1F3 VN 259"
+  - "\U0001F1FB\U0001F1F3 VN 260"
+  - "\U0001F1F3\U0001F1F1 NL 261"
+  - "\U0001F1FA\U0001F1F8 US 262"
+  - "\U0001F1FA\U0001F1F8 US 263"
+  - "\U0001F1FB\U0001F1F3 VN 264"
+  - "\U0001F1FA\U0001F1F8 US 265"
+  - "\U0001F1F8\U0001F1EC SG 266"
+  - "\U0001F1FA\U0001F1F8 US 267"
+  - "\U0001F1E8\U0001F1F3 HK 268"
+  - "\U0001F1FA\U0001F1F8 US 269"
+  - "\U0001F1FA\U0001F1F8 US 270"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -285,27 +2517,275 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1E8\U0001F1F3 CN 1"
-  - "\U0001F1E8\U0001F1F3 TW 2"
-  - "\U0001F1E9\U0001F1EA DE 3"
-  - "\U0001F1EB\U0001F1F7 FR 4"
-  - "\U0001F1EC\U0001F1E7 GB 5"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1EE\U0001F1E9 ID 8"
-  - "\U0001F1E8\U0001F1F3 HK 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1EF\U0001F1F5 JP 11"
-  - "\U0001F1E8\U0001F1F3 CN 12"
-  - "\U0001F1EF\U0001F1F5 JP 13"
-  - "\U0001F1F0\U0001F1F7 KR 14"
-  - "\U0001F1F8\U0001F1EC SG 15"
-  - "\U0001F1E8\U0001F1F3 TW 16"
-  - "\U0001F1F8\U0001F1EC SG 17"
-  - "\U0001F1FA\U0001F1F8 US 18"
-  - "\U0001F1FB\U0001F1F3 VN 19"
-  - "\U0001F1FA\U0001F1F8 US 20"
-  - "\U0001F1FA\U0001F1F8 US 21"
-  - "\U0001F1FA\U0001F1F8 US 22"
+  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 CN 10"
+  - "\U0001F1E8\U0001F1F3 CN 11"
+  - "\U0001F1E8\U0001F1E6 CA 12"
+  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1E8\U0001F1F3 CN 14"
+  - "\U0001F1E8\U0001F1F3 CN 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
+  - "\U0001F1E8\U0001F1F3 CN 17"
+  - "\U0001F1E8\U0001F1F3 CN 18"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
+  - "\U0001F1E8\U0001F1F3 CN 21"
+  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1E8\U0001F1F3 CN 23"
+  - "\U0001F1E8\U0001F1F3 CN 24"
+  - "\U0001F1E8\U0001F1F3 CN 25"
+  - "\U0001F1E8\U0001F1ED CH 26"
+  - "\U0001F1E8\U0001F1F3 CN 27"
+  - "\U0001F1E8\U0001F1F3 CN 28"
+  - "\U0001F1E8\U0001F1F3 CN 29"
+  - "\U0001F1E8\U0001F1F3 CN 30"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E8\U0001F1F3 CN 32"
+  - "\U0001F1E8\U0001F1F3 CN 33"
+  - "\U0001F1E8\U0001F1F3 CN 34"
+  - "\U0001F1E8\U0001F1F3 CN 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1E8\U0001F1F3 CN 37"
+  - "\U0001F1E8\U0001F1F3 CN 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1E8\U0001F1F3 CN 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1E8\U0001F1F3 CN 42"
+  - "\U0001F1E8\U0001F1F3 CN 43"
+  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1E8\U0001F1F3 CN 46"
+  - "\U0001F1E8\U0001F1F3 CN 47"
+  - "\U0001F1E8\U0001F1F3 CN 48"
+  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1E8\U0001F1F3 CN 50"
+  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1E8\U0001F1F3 CN 52"
+  - "\U0001F1E8\U0001F1F3 CN 53"
+  - "\U0001F1E8\U0001F1F3 CN 54"
+  - "\U0001F1E8\U0001F1F3 CN 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
+  - "\U0001F1E8\U0001F1F3 CN 58"
+  - "\U0001F1E8\U0001F1F3 CN 59"
+  - "\U0001F1E8\U0001F1F3 CN 60"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1E8\U0001F1F3 CN 62"
+  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1E8\U0001F1F3 CN 64"
+  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1E8\U0001F1F3 CN 66"
+  - "\U0001F1E8\U0001F1F3 CN 67"
+  - "\U0001F1E8\U0001F1F3 CN 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 CN 70"
+  - "\U0001F1E8\U0001F1F3 CN 71"
+  - "\U0001F1E8\U0001F1F3 CN 72"
+  - "\U0001F1E8\U0001F1F3 CN 73"
+  - "\U0001F1E8\U0001F1F3 CN 74"
+  - "\U0001F1E8\U0001F1F3 CN 75"
+  - "\U0001F1E8\U0001F1F3 CN 76"
+  - "\U0001F1E8\U0001F1F3 CN 77"
+  - "\U0001F1E8\U0001F1F3 CN 78"
+  - "\U0001F1E8\U0001F1F3 CN 79"
+  - "\U0001F1E8\U0001F1F3 CN 80"
+  - "\U0001F1E8\U0001F1F3 CN 81"
+  - "\U0001F1E8\U0001F1F3 CN 82"
+  - "\U0001F1E8\U0001F1F3 CN 83"
+  - "\U0001F1E8\U0001F1F3 CN 84"
+  - "\U0001F1E8\U0001F1F3 CN 85"
+  - "\U0001F1E8\U0001F1F3 CN 86"
+  - "\U0001F1E8\U0001F1F3 CN 87"
+  - "\U0001F1E8\U0001F1F3 CN 88"
+  - "\U0001F1E8\U0001F1F3 CN 89"
+  - "\U0001F1E8\U0001F1F3 CN 90"
+  - "\U0001F1E8\U0001F1F3 CN 91"
+  - "\U0001F1E8\U0001F1F3 CN 92"
+  - "\U0001F1E8\U0001F1F3 CN 93"
+  - "\U0001F1E8\U0001F1F3 CN 94"
+  - "\U0001F1E8\U0001F1F3 CN 95"
+  - "\U0001F1E8\U0001F1F3 CN 96"
+  - "\U0001F1E8\U0001F1F3 CN 97"
+  - "\U0001F1E8\U0001F1F3 CN 98"
+  - "\U0001F1E8\U0001F1F3 CN 99"
+  - "\U0001F1E8\U0001F1F3 CN 100"
+  - "\U0001F1E8\U0001F1F3 CN 101"
+  - "\U0001F1E8\U0001F1F3 CN 102"
+  - "\U0001F1E8\U0001F1F3 CN 103"
+  - "\U0001F1E8\U0001F1F3 CN 104"
+  - "\U0001F1E8\U0001F1F3 CN 105"
+  - "\U0001F1E8\U0001F1F3 CN 106"
+  - "\U0001F1E8\U0001F1F3 CN 107"
+  - "\U0001F1E8\U0001F1F3 CN 108"
+  - "\U0001F1E8\U0001F1F3 CN 109"
+  - "\U0001F1E8\U0001F1F3 CN 110"
+  - "\U0001F1E8\U0001F1F3 CN 111"
+  - "\U0001F1E8\U0001F1F3 CN 112"
+  - "\U0001F1E8\U0001F1F3 CN 113"
+  - "\U0001F1E8\U0001F1F3 CN 114"
+  - "\U0001F1E8\U0001F1F3 CN 115"
+  - "\U0001F1E8\U0001F1F3 CN 116"
+  - "\U0001F1E8\U0001F1F3 CN 117"
+  - "\U0001F1E8\U0001F1F3 CN 118"
+  - "\U0001F1E8\U0001F1F3 CN 119"
+  - "\U0001F1E8\U0001F1F3 CN 120"
+  - "\U0001F1E8\U0001F1F3 CN 121"
+  - "\U0001F1E8\U0001F1F3 CN 122"
+  - "\U0001F1E8\U0001F1F3 CN 123"
+  - "\U0001F1E8\U0001F1F3 CN 124"
+  - "\U0001F1E8\U0001F1F3 CN 125"
+  - "\U0001F1E8\U0001F1F3 CN 126"
+  - "\U0001F1E8\U0001F1F3 CN 127"
+  - "\U0001F1E8\U0001F1F3 CN 128"
+  - "\U0001F1E8\U0001F1F3 CN 129"
+  - "\U0001F1E8\U0001F1F3 CN 130"
+  - "\U0001F1E8\U0001F1F3 CN 131"
+  - "\U0001F1E8\U0001F1F3 CN 132"
+  - "\U0001F1E8\U0001F1F3 CN 133"
+  - "\U0001F1E8\U0001F1F3 CN 134"
+  - "\U0001F1E8\U0001F1F3 CN 135"
+  - "\U0001F1E8\U0001F1F3 CN 136"
+  - "\U0001F1E8\U0001F1F3 CN 137"
+  - "\U0001F1E8\U0001F1F3 CN 138"
+  - "\U0001F1E8\U0001F1F3 CN 139"
+  - "\U0001F1E8\U0001F1F3 CN 140"
+  - "\U0001F1E8\U0001F1F3 CN 141"
+  - "\U0001F1E8\U0001F1F3 CN 142"
+  - "\U0001F1E8\U0001F1F3 CN 143"
+  - "\U0001F1E8\U0001F1F3 CN 144"
+  - "\U0001F1E8\U0001F1F3 CN 145"
+  - "\U0001F1E8\U0001F1F3 CN 146"
+  - "\U0001F1E8\U0001F1F3 CN 147"
+  - "\U0001F1E8\U0001F1F3 CN 148"
+  - "\U0001F1E8\U0001F1F3 CN 149"
+  - "\U0001F1E8\U0001F1F3 CN 150"
+  - "\U0001F1E8\U0001F1F3 CN 151"
+  - "\U0001F1E8\U0001F1F3 CN 152"
+  - "\U0001F1E8\U0001F1F3 CN 153"
+  - "\U0001F1E8\U0001F1F3 CN 154"
+  - "\U0001F1E8\U0001F1F3 CN 155"
+  - "\U0001F1E8\U0001F1F3 CN 156"
+  - "\U0001F1E8\U0001F1F3 CN 157"
+  - "\U0001F1E8\U0001F1F3 CN 158"
+  - "\U0001F1E8\U0001F1F3 CN 159"
+  - "\U0001F1E8\U0001F1F3 CN 160"
+  - "\U0001F1E8\U0001F1F3 CN 161"
+  - "\U0001F1E8\U0001F1F3 CN 162"
+  - "\U0001F1E8\U0001F1F3 CN 163"
+  - "\U0001F1E8\U0001F1F3 CN 164"
+  - "\U0001F1E8\U0001F1F3 CN 165"
+  - "\U0001F1E8\U0001F1F3 CN 166"
+  - "\U0001F1E8\U0001F1F3 CN 167"
+  - "\U0001F1E8\U0001F1F3 TW 168"
+  - "\U0001F1E8\U0001F1F3 CN 169"
+  - "\U0001F1E8\U0001F1F3 CN 170"
+  - "\U0001F1E8\U0001F1F3 CN 171"
+  - "\U0001F1E8\U0001F1F3 CN 172"
+  - "\U0001F1E8\U0001F1F3 CN 173"
+  - "\U0001F1E8\U0001F1F3 CN 174"
+  - "\U0001F1E8\U0001F1F3 TW 175"
+  - "\U0001F1E8\U0001F1F3 TW 176"
+  - "\U0001F1E8\U0001F1F3 TW 177"
+  - "\U0001F1EB\U0001F1EE FI 178"
+  - "\U0001F1E8\U0001F1FF CZ 179"
+  - "\U0001F1EB\U0001F1F7 FR 180"
+  - "\U0001F1E9\U0001F1EA DE 181"
+  - "\U0001F1E8\U0001F1F3 CN 182"
+  - "\U0001F1EB\U0001F1F7 FR 183"
+  - "\U0001F1EC\U0001F1E7 GB 184"
+  - "\U0001F1EC\U0001F1E7 GB 185"
+  - "\U0001F1FA\U0001F1F8 US 186"
+  - "\U0001F1E8\U0001F1F3 CN 187"
+  - "\U0001F1EC\U0001F1E7 GB 188"
+  - "\U0001F1E9\U0001F1EA DE 189"
+  - "\U0001F1E8\U0001F1F3 HK 190"
+  - "\U0001F1E8\U0001F1F3 HK 191"
+  - "\U0001F1E9\U0001F1EA DE 192"
+  - "\U0001F1E8\U0001F1F3 HK 193"
+  - "\U0001F1EE\U0001F1E9 ID 194"
+  - "\U0001F1EF\U0001F1F5 JP 195"
+  - "\U0001F1EF\U0001F1F5 JP 196"
+  - "\U0001F1EE\U0001F1F3 IN 197"
+  - "\U0001F1EF\U0001F1F5 JP 198"
+  - "\U0001F1EF\U0001F1F5 JP 199"
+  - "\U0001F1EF\U0001F1F5 JP 200"
+  - "\U0001F1EF\U0001F1F5 JP 201"
+  - "\U0001F1EF\U0001F1F5 JP 202"
+  - "\U0001F1EF\U0001F1F5 JP 203"
+  - "\U0001F1EF\U0001F1F5 JP 204"
+  - "\U0001F1E8\U0001F1F3 HK 205"
+  - "\U0001F1EF\U0001F1F5 JP 206"
+  - "\U0001F1E8\U0001F1F3 CN 207"
+  - "\U0001F1F0\U0001F1F7 KR 208"
+  - "\U0001F1EF\U0001F1F5 JP 209"
+  - "\U0001F1EF\U0001F1F5 JP 210"
+  - "\U0001F1F0\U0001F1F7 KR 211"
+  - "\U0001F1F0\U0001F1F7 KR 212"
+  - "\U0001F1F8\U0001F1EC SG 213"
+  - "\U0001F1E8\U0001F1F3 CN 214"
+  - "\U0001F1F8\U0001F1EC SG 215"
+  - "\U0001F1F8\U0001F1EC SG 216"
+  - "\U0001F1F8\U0001F1EC SG 217"
+  - "\U0001F1F0\U0001F1F7 KR 218"
+  - "\U0001F1F8\U0001F1EC SG 219"
+  - "\U0001F1F8\U0001F1EC SG 220"
+  - "\U0001F1F8\U0001F1EC SG 221"
+  - "\U0001F1F8\U0001F1EC SG 222"
+  - "\U0001F1F8\U0001F1EC SG 223"
+  - "\U0001F1F8\U0001F1EC SG 224"
+  - "\U0001F1E9\U0001F1EA DE 225"
+  - "\U0001F1F8\U0001F1EC SG 226"
+  - "\U0001F1E8\U0001F1F3 TW 227"
+  - "\U0001F1F8\U0001F1EC SG 228"
+  - "\U0001F1FA\U0001F1F8 US 229"
+  - "\U0001F1FA\U0001F1F8 US 230"
+  - "\U0001F1FA\U0001F1F8 US 231"
+  - "\U0001F1FA\U0001F1F8 US 232"
+  - "\U0001F1FA\U0001F1F8 US 233"
+  - "\U0001F1FA\U0001F1F8 US 234"
+  - "\U0001F1F7\U0001F1FA RU 235"
+  - "\U0001F1FA\U0001F1F8 US 236"
+  - "\U0001F1FA\U0001F1F8 US 237"
+  - "\U0001F1FA\U0001F1F8 US 238"
+  - "\U0001F1FA\U0001F1F8 US 239"
+  - "\U0001F1FA\U0001F1F8 US 240"
+  - "\U0001F1FA\U0001F1F8 US 241"
+  - "\U0001F1FA\U0001F1F8 US 242"
+  - "\U0001F1FA\U0001F1F8 US 243"
+  - "\U0001F1FA\U0001F1F8 US 244"
+  - "\U0001F1FA\U0001F1F8 US 245"
+  - "\U0001F1FA\U0001F1F8 US 246"
+  - "\U0001F1FA\U0001F1F8 US 247"
+  - "\U0001F1FA\U0001F1F8 US 248"
+  - "\U0001F1FA\U0001F1F8 US 249"
+  - "\U0001F1FA\U0001F1F8 US 250"
+  - "\U0001F1FA\U0001F1F8 US 251"
+  - "\U0001F1FA\U0001F1F8 US 252"
+  - "\U0001F1FA\U0001F1F8 US 253"
+  - "\U0001F1FA\U0001F1F8 US 254"
+  - "\U0001F1FA\U0001F1F8 US 255"
+  - "\U0001F1FA\U0001F1F8 US 256"
+  - "\U0001F1FA\U0001F1F8 US 257"
+  - "\U0001F1FA\U0001F1F8 US 258"
+  - "\U0001F1FB\U0001F1F3 VN 259"
+  - "\U0001F1FB\U0001F1F3 VN 260"
+  - "\U0001F1F3\U0001F1F1 NL 261"
+  - "\U0001F1FA\U0001F1F8 US 262"
+  - "\U0001F1FA\U0001F1F8 US 263"
+  - "\U0001F1FB\U0001F1F3 VN 264"
+  - "\U0001F1FA\U0001F1F8 US 265"
+  - "\U0001F1F8\U0001F1EC SG 266"
+  - "\U0001F1FA\U0001F1F8 US 267"
+  - "\U0001F1E8\U0001F1F3 HK 268"
+  - "\U0001F1FA\U0001F1F8 US 269"
+  - "\U0001F1FA\U0001F1F8 US 270"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
