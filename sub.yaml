@@ -79,44 +79,46 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: "\U0001F1E8\U0001F1E6 CA 1"
-  server: hly.755657.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 1"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 24006
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: tw.xund8.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 41002
+  password: aLPVFv
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 5:N7LSgK
+  obfs: tls1.2_ticket_auth
+  obfs-param: 5d8a45.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 TW 3"
+  server: 96tw.tfzhc.top
   type: trojan
-  country: "\U0001F1E8\U0001F1E6 CA"
+  country: "\U0001F1E8\U0001F1F3 TW"
   port: 443
-  password: 690397bf-64fc-4e18-8810-4f95979a21d3
+  password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 2"
+- name: "\U0001F1E8\U0001F1F3 HK 4"
+  server: nc.755657.xyz
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 443
+  password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 5"
   server: azhj001.xibai6.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
   port: 20716
   password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 3"
-  server: 93hk02.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 4"
-  server: 831sg.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 5"
-  server: nc.755657.xyz
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 443
-  password: 690397bf-64fc-4e18-8810-4f95979a21d3
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F8\U0001F1EC SG 6"
@@ -127,7 +129,31 @@ proxies:
   password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 7"
+- name: "\U0001F1EE\U0001F1E9 ID 7"
+  server: 41.216.177.41
+  type: trojan
+  country: "\U0001F1EE\U0001F1E9 ID"
+  port: 443
+  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 8"
+  server: kr1.api-aws.com
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: cbd08acf-2d47-4065-aafa-4201e5307f67
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 9"
+  server: 730tw01.ok365.cyou
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 10"
   server: 104.129.63.65
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -135,60 +161,75 @@ proxies:
   password: SPk4wBA3XA
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 8"
-  server: nexo.755657.xyz
+- name: "\U0001F1F8\U0001F1EC SG 11"
+  server: 831sg.tfzhc.top
   type: trojan
-  country: "\U0001F1E9\U0001F1EA DE"
+  country: "\U0001F1F8\U0001F1EC SG"
   port: 443
-  password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
+  password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 9"
-  server: kr1.api-aws.com
+- name: "\U0001F1FA\U0001F1F8 US 12"
+  server: s3.hazz.win
   type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: ec129ab2-3c89-4e25-8b97-aee479ac06f1
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 10"
-  server: ty1-4.nigirocloud.com
+- name: "\U0001F1E8\U0001F1F3 CN 13"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24001
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1F8\U0001F1EC SG 14"
+  server: 93hk02.tfzhc.top
   type: trojan
-  country: "\U0001F1E9\U0001F1EA DE"
+  country: "\U0001F1F8\U0001F1EC SG"
   port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
+  password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
   skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1E8\U0001F1E6 CA 1"
-  - "\U0001F1E8\U0001F1F3 HK 2"
-  - "\U0001F1F8\U0001F1EC SG 3"
-  - "\U0001F1F8\U0001F1EC SG 4"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 TW 3"
+  - "\U0001F1E8\U0001F1F3 HK 4"
   - "\U0001F1E8\U0001F1F3 HK 5"
   - "\U0001F1F8\U0001F1EC SG 6"
-  - "\U0001F1FA\U0001F1F8 US 7"
-  - "\U0001F1E9\U0001F1EA DE 8"
-  - "\U0001F1F0\U0001F1F7 KR 9"
-  - "\U0001F1E9\U0001F1EA DE 10"
+  - "\U0001F1EE\U0001F1E9 ID 7"
+  - "\U0001F1F0\U0001F1F7 KR 8"
+  - "\U0001F1E8\U0001F1F3 TW 9"
+  - "\U0001F1FA\U0001F1F8 US 10"
+  - "\U0001F1F8\U0001F1EC SG 11"
+  - "\U0001F1FA\U0001F1F8 US 12"
+  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1F8\U0001F1EC SG 14"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
   type: select
   proxies:
   - automatic
-  - "\U0001F1E8\U0001F1E6 CA 1"
-  - "\U0001F1E8\U0001F1F3 HK 2"
-  - "\U0001F1F8\U0001F1EC SG 3"
-  - "\U0001F1F8\U0001F1EC SG 4"
+  - "\U0001F1E8\U0001F1F3 CN 1"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 TW 3"
+  - "\U0001F1E8\U0001F1F3 HK 4"
   - "\U0001F1E8\U0001F1F3 HK 5"
   - "\U0001F1F8\U0001F1EC SG 6"
-  - "\U0001F1FA\U0001F1F8 US 7"
-  - "\U0001F1E9\U0001F1EA DE 8"
-  - "\U0001F1F0\U0001F1F7 KR 9"
-  - "\U0001F1E9\U0001F1EA DE 10"
+  - "\U0001F1EE\U0001F1E9 ID 7"
+  - "\U0001F1F0\U0001F1F7 KR 8"
+  - "\U0001F1E8\U0001F1F3 TW 9"
+  - "\U0001F1FA\U0001F1F8 US 10"
+  - "\U0001F1F8\U0001F1EC SG 11"
+  - "\U0001F1FA\U0001F1F8 US 12"
+  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1F8\U0001F1EC SG 14"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
