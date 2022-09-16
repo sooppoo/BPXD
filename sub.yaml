@@ -80,16 +80,16 @@ dns:
     - 0.0.0.0/32
 proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 1"
-  server: hnlt.817777.xyz
+  server: hnyd.817777.xyz
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 41106
+  port: 20524
   password: zxOmdD
   cipher: aes-256-cfb
   protocol: auth_aes128_sha1
   protocol-param: 22082:tgXIaG
   obfs: tls1.2_ticket_auth
-  obfs-param: MGY2ZjMyMjA4Mi5taWNyb3NvZnQuY29t
+  obfs-param: 0f6f322082.microsoft.com
 - name: "\U0001F1E6\U0001F1FA AU 2"
   server: wangqifei.ga
   type: trojan
@@ -98,25 +98,7 @@ proxies:
   password: 3oquVrpxPg
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3"
-  server: i1.go001.buzz
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 32201
-  password: bBEXIq
-  cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 4"
-  server: gzyd.120.817777.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 41110
-  password: zxOmdD
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 22082:tgXIaG
-  obfs: tls1.2_ticket_auth
-  obfs-param: 0f6f322082.microsoft.com
-- name: "\U0001F1E7\U0001F1F7 BR 5"
+- name: "\U0001F1E7\U0001F1F7 BR 3"
   server: 5.252.24.137
   type: trojan
   country: "\U0001F1E7\U0001F1F7 BR"
@@ -124,7 +106,18 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 6"
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11806
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 5"
   server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -135,6 +128,17 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: MDE4YWIxMjAyMy5taWNyb3NvZnQuY29t
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 11427
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
 - name: "\U0001F1E8\U0001F1F3 CN 7"
   server: 14.29.124.168
   type: ss
@@ -142,23 +146,18 @@ proxies:
   port: 24004
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 TW 8"
-  server: 913tw.tfzhc.top
-  type: trojan
+- name: "\U0001F1E8\U0001F1F3 CN 8"
+  server: cmrelay01.newcome.xyz
+  type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 44318
-  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 9"
-  server: sctw1.ddns-pop.cyou
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24567
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 10"
+  port: 5702
+  password: jFa4F1
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 80441:YsBCJt
+  obfs: plain
+  obfs-param: b7a8980441.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 9"
   server: cmrelay01.newcome.xyz
   type: ssr
   country: "\U0001F1E8\U0001F1F3 TW"
@@ -169,30 +168,23 @@ proxies:
   protocol-param: 80441:YsBCJt
   obfs: plain
   obfs-param: b7a8980441.microsoft.com
-- name: "\U0001F1EB\U0001F1F7 FR 11"
-  server: 35.180.247.162
+- name: "\U0001F1E8\U0001F1F3 TW 10"
+  server: sctw1.ddns-pop.cyou
   type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: iyinglong
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24567
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 11"
+  server: 913tw.tfzhc.top
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 44318
+  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EB\U0001F1F7 FR 12"
-  server: 35.180.202.38
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 13"
-  server: 183.240.209.15
-  type: ss
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 31905
-  password: bBEXIq
-  cipher: aes-256-gcm
-- name: "\U0001F1EB\U0001F1F7 FR 14"
   server: 52.47.99.22
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -200,47 +192,15 @@ proxies:
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 15"
-  server: 13.38.55.14
+- name: "\U0001F1EB\U0001F1F7 FR 13"
+  server: 35.180.247.162
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
   port: 443
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 16"
-  server: 3.10.209.85
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 17"
-  server: 35.180.122.151
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 18"
-  server: 13.40.154.20
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 19"
-  server: 3.8.216.52
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 20"
+- name: "\U0001F1EB\U0001F1F7 FR 14"
   server: 13.38.24.83
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -248,6 +208,53 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 15"
+  server: 35.180.202.38
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 16"
+  server: 3.8.216.52
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 17"
+  server: 18.130.157.11
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 18"
+  server: 18.133.181.177
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 19"
+  server: 35.180.122.151
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 20"
+  server: 183.240.209.15
+  type: ss
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 31905
+  password: bBEXIq
+  cipher: aes-256-gcm
 - name: "\U0001F1EC\U0001F1E7 GB 21"
   server: uk1.turingnet.top
   type: trojan
@@ -264,29 +271,60 @@ proxies:
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 23"
-  server: nj2.boom.skin
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 12000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 488103:eQAZJ2
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
+- name: "\U0001F1EC\U0001F1E7 GB 23"
+  server: 13.40.126.229
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 24"
-  server: nj6.boom.skin
+  server: njd.boom.skin
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
-  port: 16000
+  port: 23000
   password: Uk92CS
   cipher: aes-256-cfb
   protocol: auth_aes128_sha1
   protocol-param: 488103:eQAZJ2
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 25"
+- name: "\U0001F1EC\U0001F1E7 GB 25"
+  server: 35.176.6.24
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 26"
+  server: 13.40.154.20
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 27"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24005
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 28"
+  server: nj8.boom.skin
+  type: ssr
+  country: "\U0001F1ED\U0001F1F0 HK"
+  port: 18000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 488103:eQAZJ2
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 29"
   server: nj3.boom.skin
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -297,7 +335,14 @@ proxies:
   protocol-param: 488103:eQAZJ2
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 26"
+- name: "\U0001F1E8\U0001F1F3 CN 30"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24001
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 31"
   server: nj7.boom.skin
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -308,25 +353,7 @@ proxies:
   protocol-param: 488103:eQAZJ2
   obfs: http_simple
   obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 27"
-  server: njb.boom.skin
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 21000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 488103:eQAZJ2
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 28"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24009
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 HK 29"
+- name: "\U0001F1E8\U0001F1F3 HK 32"
   server: 20.239.52.101
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -334,18 +361,7 @@ proxies:
   password: 0261c119-5498-4f6e-ad1b-d4718637c5b8
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 30"
-  server: sg.xund8.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 41004
-  password: aLPVFv
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 5:N7LSgK
-  obfs: tls1.2_ticket_auth
-  obfs-param: 5d8a45.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 HK 31"
+- name: "\U0001F1E8\U0001F1F3 HK 33"
   server: 20.205.10.150
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -353,49 +369,14 @@ proxies:
   password: 0261c119-5498-4f6e-ad1b-d4718637c5b8
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 32"
-  server: hk.xund8.xyz
-  type: ssr
-  country: "\U0001F1ED\U0001F1F0 HK"
-  port: 41000
-  password: aLPVFv
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 5:N7LSgK
-  obfs: tls1.2_ticket_auth
-  obfs-param: NWQ4YTQ1Lm1pY3Jvc29mdC5jb20=
-- name: "\U0001F1EF\U0001F1F5 JP 33"
-  server: 54.249.153.131
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 34"
   server: 14.29.124.168
   type: ss
   country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24008
+  port: 24007
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: "\U0001F1EE\U0001F1EA IE 35"
-  server: 34.248.69.233
-  type: trojan
-  country: "\U0001F1EE\U0001F1EA IE"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 36"
-  server: 18.179.136.120
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 37"
+- name: "\U0001F1EF\U0001F1F5 JP 35"
   server: 99jp.tfzhc.top
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -403,255 +384,7 @@ proxies:
   password: d0ad17a2-d7e9-4e78-89fb-71731696c440
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 38"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 11424
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 39"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 24006
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1F8\U0001F1EC SG 40"
-  server: susan.leosvps.space
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: NGyhpgytIJ
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 41"
-  server: 913hk.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 42"
-  server: 99tw02.tfzhc.top
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 43"
-  server: 54.251.4.31
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 44"
-  server: 150.230.249.42
-  type: trojan
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 443
-  password: 0Y9gOHSdRt
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 45"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3 TW"
-  port: 11814
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1F8\U0001F1EC SG 46"
-  server: 13.213.0.239
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 47"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 11812
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 48"
-  server: njc.boom.skin
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 22000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 488103:eQAZJ2
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 49"
-  server: nj4.boom.skin
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 14000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 488103:eQAZJ2
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 50"
-  server: hnlt.817777.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 44032
-  password: zxOmdD
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 22082:tgXIaG
-  obfs: tls1.2_ticket_auth
-  obfs-param: 0f6f322082.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 51"
-  server: nj1.boom.skin
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 11000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 488103:eQAZJ2
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 52"
-  server: nj5.boom.skin
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 15000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 488103:eQAZJ2
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-- name: "\U0001F1E8\U0001F1F3 CN 53"
-  server: 43.248.96.249
-  type: ss
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 12233
-  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1FA\U0001F1F8 US 54"
-  server: 138.124.183.222
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 55"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11429
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: MDE4YWIxMjAyMy5taWNyb3NvZnQuY29t
-- name: "\U0001F1FB\U0001F1F3 VN 56"
-  server: 103.173.254.205
-  type: trojan
-  country: "\U0001F1FB\U0001F1F3 VN"
-  port: 443
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 57"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1F0\U0001F1F7 KR"
-  port: 11803
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 58"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 11423
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1FA\U0001F1F8 US 59"
-  server: 54.84.14.46
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 60"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11807
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1FA\U0001F1F8 US 61"
-  server: scus1.ddns-pop.cyou
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 24567
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 62"
-  server: guangzhouddns.xyz
-  type: ssr
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 11842
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 63"
-  server: liaoningddns.xyz
-  type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11422
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 26786:r3uWHp
-  obfs: tls1.2_ticket_auth
-  obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 64"
+- name: "\U0001F1E8\U0001F1F3 CN 36"
   server: guangzhouddns.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -662,7 +395,276 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 65"
+- name: "\U0001F1EE\U0001F1EA IE 37"
+  server: 34.248.69.233
+  type: trojan
+  country: "\U0001F1EE\U0001F1EA IE"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 38"
+  server: 13.112.247.141
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 39"
+  server: 18.179.136.120
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 40"
+  server: www.sxsy88.tk
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 44150
+  password: zFyLKH62WN
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 41"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 11424
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1F0\U0001F1F7 KR 42"
+  server: 3.38.108.94
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 43"
+  server: 52.77.243.140
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 44"
+  server: 14.29.124.168
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 TW"
+  port: 24002
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1F8\U0001F1EC SG 45"
+  server: 13.213.0.239
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 46"
+  server: 913hk.tfzhc.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 47"
+  server: 54.251.4.31
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 48"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 11812
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1EF\U0001F1F5 JP 49"
+  server: 18.179.205.215
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 50"
+  server: nj1.boom.skin
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 11000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 488103:eQAZJ2
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 TW 51"
+  server: 99tw02.tfzhc.top
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 52"
+  server: hnlt.817777.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 44032
+  password: zxOmdD
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 22082:tgXIaG
+  obfs: tls1.2_ticket_auth
+  obfs-param: 0f6f322082.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 53"
+  server: nja.boom.skin
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 20000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 488103:eQAZJ2
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 54"
+  server: dajbxus.naikonode.top
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 15105
+  password: NaikoCloud
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 1596:vsqvobohcqs
+  obfs: http_simple
+  obfs-param: 6371f1596.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 55"
+  server: nj9.boom.skin
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 19000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 488103:eQAZJ2
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 56"
+  server: nj4.boom.skin
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 14000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 488103:eQAZJ2
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 57"
+  server: nj5.boom.skin
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 15000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 488103:eQAZJ2
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+- name: "\U0001F1E8\U0001F1F3 CN 58"
+  server: dajbxus.naikonode.top
+  type: ssr
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 15106
+  password: NaikoCloud
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 1596:vsqvobohcqs
+  obfs: http_simple
+  obfs-param: 6371f1596.microsoft.com
+- name: "\U0001F1F0\U0001F1F7 KR 59"
+  server: 150.230.249.42
+  type: trojan
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 443
+  password: 0Y9gOHSdRt
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 60"
+  server: 43.248.96.249
+  type: ss
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 12233
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 61"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1F0\U0001F1F7 KR"
+  port: 11803
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 62"
+  server: guangzhouddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11846
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1FA\U0001F1F8 US 63"
+  server: 34.219.183.33
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 64"
+  server: liaoningddns.xyz
+  type: ssr
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11429
+  password: Fhbe0z
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  obfs: tls1.2_ticket_auth
+  obfs-param: MDE4YWIxMjAyMy5taWNyb3NvZnQuY29t
+- name: "\U0001F1FA\U0001F1F8 US 65"
+  server: 34.219.230.191
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 66"
   server: liaoningddns.xyz
   type: ssr
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -673,99 +675,136 @@ proxies:
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 66"
+- name: "\U0001F1F8\U0001F1EC SG 67"
+  server: 3.1.6.157
+  type: trojan
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 443
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FB\U0001F1F3 VN 68"
+  server: 103.173.254.205
+  type: trojan
+  country: "\U0001F1FB\U0001F1F3 VN"
+  port: 443
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 69"
   server: guangzhouddns.xyz
   type: ssr
-  country: "\U0001F1F8\U0001F1EC SG"
-  port: 11806
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 11804
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 67"
+- name: "\U0001F1E8\U0001F1F3 HK 70"
+  server: 194.156.99.39
+  type: trojan
+  country: "\U0001F3C1 ZZ"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 71"
   server: liaoningddns.xyz
   type: ssr
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 11427
+  country: "\U0001F1F8\U0001F1EC SG"
+  port: 11422
   password: Fhbe0z
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   protocol-param: 26786:r3uWHp
   obfs: tls1.2_ticket_auth
   obfs-param: 018ab12023.microsoft.com
+- name: "\U0001F1FA\U0001F1F8 US 72"
+  server: scus1.ddns-pop.cyou
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 24567
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E6\U0001F1FA AU 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E7\U0001F1F7 BR 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1E7\U0001F1F7 BR 5"
+  - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 TW 8"
-  - "\U0001F1E8\U0001F1F3 TW 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1EB\U0001F1F7 FR 11"
+  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 TW 10"
+  - "\U0001F1E8\U0001F1F3 TW 11"
   - "\U0001F1EB\U0001F1F7 FR 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1EB\U0001F1F7 FR 13"
   - "\U0001F1EB\U0001F1F7 FR 14"
   - "\U0001F1EB\U0001F1F7 FR 15"
   - "\U0001F1EC\U0001F1E7 GB 16"
-  - "\U0001F1EB\U0001F1F7 FR 17"
+  - "\U0001F1EC\U0001F1E7 GB 17"
   - "\U0001F1EC\U0001F1E7 GB 18"
-  - "\U0001F1EC\U0001F1E7 GB 19"
-  - "\U0001F1EB\U0001F1F7 FR 20"
+  - "\U0001F1EB\U0001F1F7 FR 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
   - "\U0001F1EC\U0001F1E7 GB 21"
   - "\U0001F1EC\U0001F1E7 GB 22"
-  - "\U0001F1E8\U0001F1F3 CN 23"
+  - "\U0001F1EC\U0001F1E7 GB 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1E8\U0001F1F3 CN 25"
-  - "\U0001F1E8\U0001F1F3 CN 26"
+  - "\U0001F1EC\U0001F1E7 GB 25"
+  - "\U0001F1EC\U0001F1E7 GB 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
   - "\U0001F1E8\U0001F1F3 CN 28"
-  - "\U0001F1E8\U0001F1F3 HK 29"
+  - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
-  - "\U0001F1E8\U0001F1F3 HK 31"
-  - "\U0001F1E8\U0001F1F3 CN 32"
-  - "\U0001F1EF\U0001F1F5 JP 33"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E8\U0001F1F3 HK 32"
+  - "\U0001F1E8\U0001F1F3 HK 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1EE\U0001F1EA IE 35"
-  - "\U0001F1EF\U0001F1F5 JP 36"
-  - "\U0001F1EF\U0001F1F5 JP 37"
-  - "\U0001F1E8\U0001F1F3 CN 38"
-  - "\U0001F1E8\U0001F1F3 CN 39"
-  - "\U0001F1F8\U0001F1EC SG 40"
-  - "\U0001F1F8\U0001F1EC SG 41"
-  - "\U0001F1E8\U0001F1F3 TW 42"
+  - "\U0001F1EF\U0001F1F5 JP 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1EE\U0001F1EA IE 37"
+  - "\U0001F1EF\U0001F1F5 JP 38"
+  - "\U0001F1EF\U0001F1F5 JP 39"
+  - "\U0001F1EF\U0001F1F5 JP 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1F0\U0001F1F7 KR 42"
   - "\U0001F1F8\U0001F1EC SG 43"
-  - "\U0001F1F0\U0001F1F7 KR 44"
-  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1F8\U0001F1EC SG 45"
   - "\U0001F1F8\U0001F1EC SG 46"
-  - "\U0001F1E8\U0001F1F3 CN 47"
+  - "\U0001F1F8\U0001F1EC SG 47"
   - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1EF\U0001F1F5 JP 49"
   - "\U0001F1E8\U0001F1F3 CN 50"
-  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1E8\U0001F1F3 TW 51"
   - "\U0001F1E8\U0001F1F3 CN 52"
   - "\U0001F1E8\U0001F1F3 CN 53"
-  - "\U0001F1FA\U0001F1F8 US 54"
+  - "\U0001F1E8\U0001F1F3 CN 54"
   - "\U0001F1E8\U0001F1F3 CN 55"
-  - "\U0001F1FB\U0001F1F3 VN 56"
+  - "\U0001F1E8\U0001F1F3 CN 56"
   - "\U0001F1E8\U0001F1F3 CN 57"
   - "\U0001F1E8\U0001F1F3 CN 58"
-  - "\U0001F1FA\U0001F1F8 US 59"
+  - "\U0001F1F0\U0001F1F7 KR 59"
   - "\U0001F1E8\U0001F1F3 CN 60"
-  - "\U0001F1FA\U0001F1F8 US 61"
+  - "\U0001F1E8\U0001F1F3 CN 61"
   - "\U0001F1E8\U0001F1F3 CN 62"
-  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1FA\U0001F1F8 US 63"
   - "\U0001F1E8\U0001F1F3 CN 64"
-  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1FA\U0001F1F8 US 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
-  - "\U0001F1E8\U0001F1F3 CN 67"
+  - "\U0001F1F8\U0001F1EC SG 67"
+  - "\U0001F1FB\U0001F1F3 VN 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 HK 70"
+  - "\U0001F1E8\U0001F1F3 CN 71"
+  - "\U0001F1FA\U0001F1F8 US 72"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: Proxy
@@ -774,71 +813,76 @@ proxy-groups:
   - automatic
   - "\U0001F1E8\U0001F1F3 CN 1"
   - "\U0001F1E6\U0001F1FA AU 2"
-  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E7\U0001F1F7 BR 3"
   - "\U0001F1E8\U0001F1F3 CN 4"
-  - "\U0001F1E7\U0001F1F7 BR 5"
+  - "\U0001F1E8\U0001F1F3 CN 5"
   - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 CN 7"
-  - "\U0001F1E8\U0001F1F3 TW 8"
-  - "\U0001F1E8\U0001F1F3 TW 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1EB\U0001F1F7 FR 11"
+  - "\U0001F1E8\U0001F1F3 CN 8"
+  - "\U0001F1E8\U0001F1F3 CN 9"
+  - "\U0001F1E8\U0001F1F3 TW 10"
+  - "\U0001F1E8\U0001F1F3 TW 11"
   - "\U0001F1EB\U0001F1F7 FR 12"
-  - "\U0001F1E8\U0001F1F3 CN 13"
+  - "\U0001F1EB\U0001F1F7 FR 13"
   - "\U0001F1EB\U0001F1F7 FR 14"
   - "\U0001F1EB\U0001F1F7 FR 15"
   - "\U0001F1EC\U0001F1E7 GB 16"
-  - "\U0001F1EB\U0001F1F7 FR 17"
+  - "\U0001F1EC\U0001F1E7 GB 17"
   - "\U0001F1EC\U0001F1E7 GB 18"
-  - "\U0001F1EC\U0001F1E7 GB 19"
-  - "\U0001F1EB\U0001F1F7 FR 20"
+  - "\U0001F1EB\U0001F1F7 FR 19"
+  - "\U0001F1E8\U0001F1F3 CN 20"
   - "\U0001F1EC\U0001F1E7 GB 21"
   - "\U0001F1EC\U0001F1E7 GB 22"
-  - "\U0001F1E8\U0001F1F3 CN 23"
+  - "\U0001F1EC\U0001F1E7 GB 23"
   - "\U0001F1E8\U0001F1F3 CN 24"
-  - "\U0001F1E8\U0001F1F3 CN 25"
-  - "\U0001F1E8\U0001F1F3 CN 26"
+  - "\U0001F1EC\U0001F1E7 GB 25"
+  - "\U0001F1EC\U0001F1E7 GB 26"
   - "\U0001F1E8\U0001F1F3 CN 27"
   - "\U0001F1E8\U0001F1F3 CN 28"
-  - "\U0001F1E8\U0001F1F3 HK 29"
+  - "\U0001F1E8\U0001F1F3 CN 29"
   - "\U0001F1E8\U0001F1F3 CN 30"
-  - "\U0001F1E8\U0001F1F3 HK 31"
-  - "\U0001F1E8\U0001F1F3 CN 32"
-  - "\U0001F1EF\U0001F1F5 JP 33"
+  - "\U0001F1E8\U0001F1F3 CN 31"
+  - "\U0001F1E8\U0001F1F3 HK 32"
+  - "\U0001F1E8\U0001F1F3 HK 33"
   - "\U0001F1E8\U0001F1F3 CN 34"
-  - "\U0001F1EE\U0001F1EA IE 35"
-  - "\U0001F1EF\U0001F1F5 JP 36"
-  - "\U0001F1EF\U0001F1F5 JP 37"
-  - "\U0001F1E8\U0001F1F3 CN 38"
-  - "\U0001F1E8\U0001F1F3 CN 39"
-  - "\U0001F1F8\U0001F1EC SG 40"
-  - "\U0001F1F8\U0001F1EC SG 41"
-  - "\U0001F1E8\U0001F1F3 TW 42"
+  - "\U0001F1EF\U0001F1F5 JP 35"
+  - "\U0001F1E8\U0001F1F3 CN 36"
+  - "\U0001F1EE\U0001F1EA IE 37"
+  - "\U0001F1EF\U0001F1F5 JP 38"
+  - "\U0001F1EF\U0001F1F5 JP 39"
+  - "\U0001F1EF\U0001F1F5 JP 40"
+  - "\U0001F1E8\U0001F1F3 CN 41"
+  - "\U0001F1F0\U0001F1F7 KR 42"
   - "\U0001F1F8\U0001F1EC SG 43"
-  - "\U0001F1F0\U0001F1F7 KR 44"
-  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1E8\U0001F1F3 CN 44"
+  - "\U0001F1F8\U0001F1EC SG 45"
   - "\U0001F1F8\U0001F1EC SG 46"
-  - "\U0001F1E8\U0001F1F3 CN 47"
+  - "\U0001F1F8\U0001F1EC SG 47"
   - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1E8\U0001F1F3 CN 49"
+  - "\U0001F1EF\U0001F1F5 JP 49"
   - "\U0001F1E8\U0001F1F3 CN 50"
-  - "\U0001F1E8\U0001F1F3 CN 51"
+  - "\U0001F1E8\U0001F1F3 TW 51"
   - "\U0001F1E8\U0001F1F3 CN 52"
   - "\U0001F1E8\U0001F1F3 CN 53"
-  - "\U0001F1FA\U0001F1F8 US 54"
+  - "\U0001F1E8\U0001F1F3 CN 54"
   - "\U0001F1E8\U0001F1F3 CN 55"
-  - "\U0001F1FB\U0001F1F3 VN 56"
+  - "\U0001F1E8\U0001F1F3 CN 56"
   - "\U0001F1E8\U0001F1F3 CN 57"
   - "\U0001F1E8\U0001F1F3 CN 58"
-  - "\U0001F1FA\U0001F1F8 US 59"
+  - "\U0001F1F0\U0001F1F7 KR 59"
   - "\U0001F1E8\U0001F1F3 CN 60"
-  - "\U0001F1FA\U0001F1F8 US 61"
+  - "\U0001F1E8\U0001F1F3 CN 61"
   - "\U0001F1E8\U0001F1F3 CN 62"
-  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1FA\U0001F1F8 US 63"
   - "\U0001F1E8\U0001F1F3 CN 64"
-  - "\U0001F1E8\U0001F1F3 CN 65"
+  - "\U0001F1FA\U0001F1F8 US 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
-  - "\U0001F1E8\U0001F1F3 CN 67"
+  - "\U0001F1F8\U0001F1EC SG 67"
+  - "\U0001F1FB\U0001F1F3 VN 68"
+  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 HK 70"
+  - "\U0001F1E8\U0001F1F3 CN 71"
+  - "\U0001F1FA\U0001F1F8 US 72"
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
